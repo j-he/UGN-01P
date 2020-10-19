@@ -46,23 +46,19 @@ static void AudioCallBack(float **in, float **out, size_t size)
     float r = 0.0;
     ProcessControls();
 
-    //if (patch.gate_input[0].Trig())
     for (size_t i = 0; i < size; i+= 2)
     {
       if (isExtClk) {
         // gate in interrupt will handle
       } else if (int_clk.Process()){
         NextSamples();
-        for (int i = 0; i < 4; i++) {
-          // t = lfsr >> tapPosition[i] & 0x0001 ? 1.0 : 0.0;
-          t = lfsr >> tapPosition[i] & 0x0001;
-        }
       }
       for (size_t chn = 0; chn < 4; chn++)
       {
-          int ti = (in[chn][i]+1.0f) * 0.5f * 0xACE1;
-          r = ti & t ? 1.0 : 0.0;
-          sig = 0.5 * r; //* (lfsr >> tapPosition[i] & 0x0001);
+          // int ti = (in[chn][i]+1.0f) * 0.5f * 0xACE1;
+          // r = ti & t ? 1.0 : 0.0;
+          t = lfsr >> tapPosition[chn] & 0x0001 ? 1.0 : 0.0;
+          sig = 0.5 * t; //* (lfsr >> tapPosition[i] & 0x0001);
           out[chn][i] = sig;
       }
     }

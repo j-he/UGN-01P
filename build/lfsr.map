@@ -2790,7 +2790,7 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-
 .eh_frame       0x0000000008000298        0x0
  .eh_frame      0x0000000008000298        0x0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crtbegin.o
 
-.text           0x00000000080002a0     0xdd4c
+.text           0x00000000080002a0     0xdd1c
                 0x00000000080002a0                . = ALIGN (0x4)
                 0x00000000080002a0                _stext = .
  *(.text)
@@ -2839,1272 +2839,1271 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-
                 0x00000000080008d0       0xac build/lfsr.o
                 0x00000000080008d0                NextSamples()
  .text._ZL13AudioCallBackPPfS0_j
-                0x000000000800097c       0xb4 build/lfsr.o
+                0x000000000800097c       0x88 build/lfsr.o
  .text._ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_jPKS8_St9__va_listEjSB_z
-                0x0000000008000a30       0x7c build/lfsr.o
-                0x0000000008000a30                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned int, char const*, std::__va_list), unsigned int, char const*, ...)
+                0x0000000008000a04       0x7c build/lfsr.o
+                0x0000000008000a04                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned int, char const*, std::__va_list), unsigned int, char const*, ...)
  .text._Z11ProcessOledv
-                0x0000000008000aac      0x26c build/lfsr.o
-                0x0000000008000aac                ProcessOled()
+                0x0000000008000a80      0x26c build/lfsr.o
+                0x0000000008000a80                ProcessOled()
  .text.startup.main
-                0x0000000008000d18      0x174 build/lfsr.o
-                0x0000000008000d18                main
+                0x0000000008000cec      0x174 build/lfsr.o
+                0x0000000008000cec                main
  .text.startup._GLOBAL__sub_I_patch
-                0x0000000008000e8c       0x6c build/lfsr.o
+                0x0000000008000e60       0x6c build/lfsr.o
  .text.Reset_Handler
-                0x0000000008000ef8       0x50 build/startup_stm32h750xx.o
-                0x0000000008000ef8                Reset_Handler
+                0x0000000008000ecc       0x50 build/startup_stm32h750xx.o
+                0x0000000008000ecc                Reset_Handler
  .text.Default_Handler
-                0x0000000008000f48        0x2 build/startup_stm32h750xx.o
-                0x0000000008000f48                SAI1_IRQHandler
-                0x0000000008000f48                HASH_RNG_IRQHandler
-                0x0000000008000f48                EXTI2_IRQHandler
-                0x0000000008000f48                TIM8_CC_IRQHandler
-                0x0000000008000f48                HRTIM1_Master_IRQHandler
-                0x0000000008000f48                DebugMon_Handler
-                0x0000000008000f48                UART8_IRQHandler
-                0x0000000008000f48                SPI4_IRQHandler
-                0x0000000008000f48                TIM1_CC_IRQHandler
-                0x0000000008000f48                BDMA_Channel6_IRQHandler
-                0x0000000008000f48                DMA2_Stream5_IRQHandler
-                0x0000000008000f48                HRTIM1_FLT_IRQHandler
-                0x0000000008000f48                JPEG_IRQHandler
-                0x0000000008000f48                BDMA_Channel1_IRQHandler
-                0x0000000008000f48                HRTIM1_TIMD_IRQHandler
-                0x0000000008000f48                TAMP_STAMP_IRQHandler
-                0x0000000008000f48                PendSV_Handler
-                0x0000000008000f48                NMI_Handler
-                0x0000000008000f48                EXTI3_IRQHandler
-                0x0000000008000f48                LPTIM4_IRQHandler
-                0x0000000008000f48                TIM8_TRG_COM_TIM14_IRQHandler
-                0x0000000008000f48                LPTIM2_IRQHandler
-                0x0000000008000f48                DFSDM1_FLT1_IRQHandler
-                0x0000000008000f48                DMAMUX2_OVR_IRQHandler
-                0x0000000008000f48                TIM8_UP_TIM13_IRQHandler
-                0x0000000008000f48                I2C3_ER_IRQHandler
-                0x0000000008000f48                DFSDM1_FLT2_IRQHandler
-                0x0000000008000f48                MDMA_IRQHandler
-                0x0000000008000f48                LPTIM3_IRQHandler
-                0x0000000008000f48                HSEM1_IRQHandler
-                0x0000000008000f48                EXTI0_IRQHandler
-                0x0000000008000f48                I2C2_EV_IRQHandler
-                0x0000000008000f48                FPU_IRQHandler
-                0x0000000008000f48                OTG_HS_WKUP_IRQHandler
-                0x0000000008000f48                FDCAN1_IT1_IRQHandler
-                0x0000000008000f48                UsageFault_Handler
-                0x0000000008000f48                LTDC_ER_IRQHandler
-                0x0000000008000f48                DMA2_Stream2_IRQHandler
-                0x0000000008000f48                HRTIM1_TIME_IRQHandler
-                0x0000000008000f48                SPI1_IRQHandler
-                0x0000000008000f48                TIM6_DAC_IRQHandler
-                0x0000000008000f48                DCMI_IRQHandler
-                0x0000000008000f48                HRTIM1_TIMC_IRQHandler
-                0x0000000008000f48                DMA2_Stream3_IRQHandler
-                0x0000000008000f48                SAI2_IRQHandler
-                0x0000000008000f48                DFSDM1_FLT3_IRQHandler
-                0x0000000008000f48                USART6_IRQHandler
-                0x0000000008000f48                TIM17_IRQHandler
-                0x0000000008000f48                USART3_IRQHandler
-                0x0000000008000f48                BDMA_Channel7_IRQHandler
-                0x0000000008000f48                CRYP_IRQHandler
-                0x0000000008000f48                LPTIM5_IRQHandler
-                0x0000000008000f48                UART5_IRQHandler
-                0x0000000008000f48                ADC3_IRQHandler
-                0x0000000008000f48                DMA2_Stream0_IRQHandler
-                0x0000000008000f48                TIM4_IRQHandler
-                0x0000000008000f48                BDMA_Channel2_IRQHandler
-                0x0000000008000f48                I2C1_EV_IRQHandler
-                0x0000000008000f48                DMA1_Stream6_IRQHandler
-                0x0000000008000f48                DMAMUX1_OVR_IRQHandler
-                0x0000000008000f48                TIM16_IRQHandler
-                0x0000000008000f48                UART4_IRQHandler
-                0x0000000008000f48                BDMA_Channel5_IRQHandler
-                0x0000000008000f48                TIM3_IRQHandler
-                0x0000000008000f48                RCC_IRQHandler
-                0x0000000008000f48                TIM8_BRK_TIM12_IRQHandler
-                0x0000000008000f48                TIM1_TRG_COM_IRQHandler
-                0x0000000008000f48                Default_Handler
-                0x0000000008000f48                ECC_IRQHandler
-                0x0000000008000f48                CEC_IRQHandler
-                0x0000000008000f48                EXTI15_10_IRQHandler
-                0x0000000008000f48                BDMA_Channel0_IRQHandler
-                0x0000000008000f48                ADC_IRQHandler
-                0x0000000008000f48                DMA1_Stream7_IRQHandler
-                0x0000000008000f48                HRTIM1_TIMA_IRQHandler
-                0x0000000008000f48                SPI5_IRQHandler
-                0x0000000008000f48                TIM7_IRQHandler
-                0x0000000008000f48                SDMMC1_IRQHandler
-                0x0000000008000f48                TIM5_IRQHandler
-                0x0000000008000f48                DMA2_Stream7_IRQHandler
-                0x0000000008000f48                TIM15_IRQHandler
-                0x0000000008000f48                PVD_AVD_IRQHandler
-                0x0000000008000f48                I2C3_EV_IRQHandler
-                0x0000000008000f48                EXTI9_5_IRQHandler
-                0x0000000008000f48                RTC_WKUP_IRQHandler
-                0x0000000008000f48                LTDC_IRQHandler
-                0x0000000008000f48                SAI3_IRQHandler
-                0x0000000008000f48                ETH_WKUP_IRQHandler
-                0x0000000008000f48                SPDIF_RX_IRQHandler
-                0x0000000008000f48                SPI2_IRQHandler
-                0x0000000008000f48                OTG_HS_EP1_IN_IRQHandler
-                0x0000000008000f48                MemManage_Handler
-                0x0000000008000f48                SVC_Handler
-                0x0000000008000f48                CRS_IRQHandler
-                0x0000000008000f48                EXTI4_IRQHandler
-                0x0000000008000f48                HRTIM1_TIMB_IRQHandler
-                0x0000000008000f48                FDCAN2_IT1_IRQHandler
-                0x0000000008000f48                ETH_IRQHandler
-                0x0000000008000f48                TIM1_UP_IRQHandler
-                0x0000000008000f48                BDMA_Channel4_IRQHandler
-                0x0000000008000f48                OTG_HS_EP1_OUT_IRQHandler
-                0x0000000008000f48                WWDG_IRQHandler
-                0x0000000008000f48                SPI6_IRQHandler
-                0x0000000008000f48                MDIOS_IRQHandler
-                0x0000000008000f48                I2C4_EV_IRQHandler
-                0x0000000008000f48                FDCAN2_IT0_IRQHandler
-                0x0000000008000f48                LPUART1_IRQHandler
-                0x0000000008000f48                FDCAN1_IT0_IRQHandler
-                0x0000000008000f48                TIM2_IRQHandler
-                0x0000000008000f48                OTG_FS_WKUP_IRQHandler
-                0x0000000008000f48                OTG_HS_IRQHandler
-                0x0000000008000f48                DMA2D_IRQHandler
-                0x0000000008000f48                TIM1_BRK_IRQHandler
-                0x0000000008000f48                EXTI1_IRQHandler
-                0x0000000008000f48                SDMMC2_IRQHandler
-                0x0000000008000f48                OTG_FS_EP1_OUT_IRQHandler
-                0x0000000008000f48                BDMA_Channel3_IRQHandler
-                0x0000000008000f48                UART7_IRQHandler
-                0x0000000008000f48                MDIOS_WKUP_IRQHandler
-                0x0000000008000f48                USART2_IRQHandler
-                0x0000000008000f48                DFSDM1_FLT0_IRQHandler
-                0x0000000008000f48                SAI4_IRQHandler
-                0x0000000008000f48                I2C2_ER_IRQHandler
-                0x0000000008000f48                DMA2_Stream1_IRQHandler
-                0x0000000008000f48                FLASH_IRQHandler
-                0x0000000008000f48                DMA2_Stream4_IRQHandler
-                0x0000000008000f48                BusFault_Handler
-                0x0000000008000f48                OTG_FS_IRQHandler
-                0x0000000008000f48                SPI3_IRQHandler
-                0x0000000008000f48                WAKEUP_PIN_IRQHandler
-                0x0000000008000f48                OTG_FS_EP1_IN_IRQHandler
-                0x0000000008000f48                I2C1_ER_IRQHandler
-                0x0000000008000f48                FMC_IRQHandler
-                0x0000000008000f48                FDCAN_CAL_IRQHandler
-                0x0000000008000f48                SWPMI1_IRQHandler
-                0x0000000008000f48                COMP1_IRQHandler
-                0x0000000008000f48                LPTIM1_IRQHandler
-                0x0000000008000f48                I2C4_ER_IRQHandler
-                0x0000000008000f48                DMA2_Stream6_IRQHandler
-                0x0000000008000f48                RTC_Alarm_IRQHandler
- *fill*         0x0000000008000f4a        0x2 
+                0x0000000008000f1c        0x2 build/startup_stm32h750xx.o
+                0x0000000008000f1c                SAI1_IRQHandler
+                0x0000000008000f1c                HASH_RNG_IRQHandler
+                0x0000000008000f1c                EXTI2_IRQHandler
+                0x0000000008000f1c                TIM8_CC_IRQHandler
+                0x0000000008000f1c                HRTIM1_Master_IRQHandler
+                0x0000000008000f1c                DebugMon_Handler
+                0x0000000008000f1c                UART8_IRQHandler
+                0x0000000008000f1c                SPI4_IRQHandler
+                0x0000000008000f1c                TIM1_CC_IRQHandler
+                0x0000000008000f1c                BDMA_Channel6_IRQHandler
+                0x0000000008000f1c                DMA2_Stream5_IRQHandler
+                0x0000000008000f1c                HRTIM1_FLT_IRQHandler
+                0x0000000008000f1c                JPEG_IRQHandler
+                0x0000000008000f1c                BDMA_Channel1_IRQHandler
+                0x0000000008000f1c                HRTIM1_TIMD_IRQHandler
+                0x0000000008000f1c                TAMP_STAMP_IRQHandler
+                0x0000000008000f1c                PendSV_Handler
+                0x0000000008000f1c                NMI_Handler
+                0x0000000008000f1c                EXTI3_IRQHandler
+                0x0000000008000f1c                LPTIM4_IRQHandler
+                0x0000000008000f1c                TIM8_TRG_COM_TIM14_IRQHandler
+                0x0000000008000f1c                LPTIM2_IRQHandler
+                0x0000000008000f1c                DFSDM1_FLT1_IRQHandler
+                0x0000000008000f1c                DMAMUX2_OVR_IRQHandler
+                0x0000000008000f1c                TIM8_UP_TIM13_IRQHandler
+                0x0000000008000f1c                I2C3_ER_IRQHandler
+                0x0000000008000f1c                DFSDM1_FLT2_IRQHandler
+                0x0000000008000f1c                MDMA_IRQHandler
+                0x0000000008000f1c                LPTIM3_IRQHandler
+                0x0000000008000f1c                HSEM1_IRQHandler
+                0x0000000008000f1c                EXTI0_IRQHandler
+                0x0000000008000f1c                I2C2_EV_IRQHandler
+                0x0000000008000f1c                FPU_IRQHandler
+                0x0000000008000f1c                OTG_HS_WKUP_IRQHandler
+                0x0000000008000f1c                FDCAN1_IT1_IRQHandler
+                0x0000000008000f1c                UsageFault_Handler
+                0x0000000008000f1c                LTDC_ER_IRQHandler
+                0x0000000008000f1c                DMA2_Stream2_IRQHandler
+                0x0000000008000f1c                HRTIM1_TIME_IRQHandler
+                0x0000000008000f1c                SPI1_IRQHandler
+                0x0000000008000f1c                TIM6_DAC_IRQHandler
+                0x0000000008000f1c                DCMI_IRQHandler
+                0x0000000008000f1c                HRTIM1_TIMC_IRQHandler
+                0x0000000008000f1c                DMA2_Stream3_IRQHandler
+                0x0000000008000f1c                SAI2_IRQHandler
+                0x0000000008000f1c                DFSDM1_FLT3_IRQHandler
+                0x0000000008000f1c                USART6_IRQHandler
+                0x0000000008000f1c                TIM17_IRQHandler
+                0x0000000008000f1c                USART3_IRQHandler
+                0x0000000008000f1c                BDMA_Channel7_IRQHandler
+                0x0000000008000f1c                CRYP_IRQHandler
+                0x0000000008000f1c                LPTIM5_IRQHandler
+                0x0000000008000f1c                UART5_IRQHandler
+                0x0000000008000f1c                ADC3_IRQHandler
+                0x0000000008000f1c                DMA2_Stream0_IRQHandler
+                0x0000000008000f1c                TIM4_IRQHandler
+                0x0000000008000f1c                BDMA_Channel2_IRQHandler
+                0x0000000008000f1c                I2C1_EV_IRQHandler
+                0x0000000008000f1c                DMA1_Stream6_IRQHandler
+                0x0000000008000f1c                DMAMUX1_OVR_IRQHandler
+                0x0000000008000f1c                TIM16_IRQHandler
+                0x0000000008000f1c                UART4_IRQHandler
+                0x0000000008000f1c                BDMA_Channel5_IRQHandler
+                0x0000000008000f1c                TIM3_IRQHandler
+                0x0000000008000f1c                RCC_IRQHandler
+                0x0000000008000f1c                TIM8_BRK_TIM12_IRQHandler
+                0x0000000008000f1c                TIM1_TRG_COM_IRQHandler
+                0x0000000008000f1c                Default_Handler
+                0x0000000008000f1c                ECC_IRQHandler
+                0x0000000008000f1c                CEC_IRQHandler
+                0x0000000008000f1c                EXTI15_10_IRQHandler
+                0x0000000008000f1c                BDMA_Channel0_IRQHandler
+                0x0000000008000f1c                ADC_IRQHandler
+                0x0000000008000f1c                DMA1_Stream7_IRQHandler
+                0x0000000008000f1c                HRTIM1_TIMA_IRQHandler
+                0x0000000008000f1c                SPI5_IRQHandler
+                0x0000000008000f1c                TIM7_IRQHandler
+                0x0000000008000f1c                SDMMC1_IRQHandler
+                0x0000000008000f1c                TIM5_IRQHandler
+                0x0000000008000f1c                DMA2_Stream7_IRQHandler
+                0x0000000008000f1c                TIM15_IRQHandler
+                0x0000000008000f1c                PVD_AVD_IRQHandler
+                0x0000000008000f1c                I2C3_EV_IRQHandler
+                0x0000000008000f1c                EXTI9_5_IRQHandler
+                0x0000000008000f1c                RTC_WKUP_IRQHandler
+                0x0000000008000f1c                LTDC_IRQHandler
+                0x0000000008000f1c                SAI3_IRQHandler
+                0x0000000008000f1c                ETH_WKUP_IRQHandler
+                0x0000000008000f1c                SPDIF_RX_IRQHandler
+                0x0000000008000f1c                SPI2_IRQHandler
+                0x0000000008000f1c                OTG_HS_EP1_IN_IRQHandler
+                0x0000000008000f1c                MemManage_Handler
+                0x0000000008000f1c                SVC_Handler
+                0x0000000008000f1c                CRS_IRQHandler
+                0x0000000008000f1c                EXTI4_IRQHandler
+                0x0000000008000f1c                HRTIM1_TIMB_IRQHandler
+                0x0000000008000f1c                FDCAN2_IT1_IRQHandler
+                0x0000000008000f1c                ETH_IRQHandler
+                0x0000000008000f1c                TIM1_UP_IRQHandler
+                0x0000000008000f1c                BDMA_Channel4_IRQHandler
+                0x0000000008000f1c                OTG_HS_EP1_OUT_IRQHandler
+                0x0000000008000f1c                WWDG_IRQHandler
+                0x0000000008000f1c                SPI6_IRQHandler
+                0x0000000008000f1c                MDIOS_IRQHandler
+                0x0000000008000f1c                I2C4_EV_IRQHandler
+                0x0000000008000f1c                FDCAN2_IT0_IRQHandler
+                0x0000000008000f1c                LPUART1_IRQHandler
+                0x0000000008000f1c                FDCAN1_IT0_IRQHandler
+                0x0000000008000f1c                TIM2_IRQHandler
+                0x0000000008000f1c                OTG_FS_WKUP_IRQHandler
+                0x0000000008000f1c                OTG_HS_IRQHandler
+                0x0000000008000f1c                DMA2D_IRQHandler
+                0x0000000008000f1c                TIM1_BRK_IRQHandler
+                0x0000000008000f1c                EXTI1_IRQHandler
+                0x0000000008000f1c                SDMMC2_IRQHandler
+                0x0000000008000f1c                OTG_FS_EP1_OUT_IRQHandler
+                0x0000000008000f1c                BDMA_Channel3_IRQHandler
+                0x0000000008000f1c                UART7_IRQHandler
+                0x0000000008000f1c                MDIOS_WKUP_IRQHandler
+                0x0000000008000f1c                USART2_IRQHandler
+                0x0000000008000f1c                DFSDM1_FLT0_IRQHandler
+                0x0000000008000f1c                SAI4_IRQHandler
+                0x0000000008000f1c                I2C2_ER_IRQHandler
+                0x0000000008000f1c                DMA2_Stream1_IRQHandler
+                0x0000000008000f1c                FLASH_IRQHandler
+                0x0000000008000f1c                DMA2_Stream4_IRQHandler
+                0x0000000008000f1c                BusFault_Handler
+                0x0000000008000f1c                OTG_FS_IRQHandler
+                0x0000000008000f1c                SPI3_IRQHandler
+                0x0000000008000f1c                WAKEUP_PIN_IRQHandler
+                0x0000000008000f1c                OTG_FS_EP1_IN_IRQHandler
+                0x0000000008000f1c                I2C1_ER_IRQHandler
+                0x0000000008000f1c                FMC_IRQHandler
+                0x0000000008000f1c                FDCAN_CAL_IRQHandler
+                0x0000000008000f1c                SWPMI1_IRQHandler
+                0x0000000008000f1c                COMP1_IRQHandler
+                0x0000000008000f1c                LPTIM1_IRQHandler
+                0x0000000008000f1c                I2C4_ER_IRQHandler
+                0x0000000008000f1c                DMA2_Stream6_IRQHandler
+                0x0000000008000f1c                RTC_Alarm_IRQHandler
+ *fill*         0x0000000008000f1e        0x2 
  .text._ZN5daisy10DaisyPatch10StartAudioEPFvPPfS2_jE
-                0x0000000008000f4c       0x18 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_patch.o)
-                0x0000000008000f4c                daisy::DaisyPatch::StartAudio(void (*)(float**, float**, unsigned int))
+                0x0000000008000f20       0x18 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_patch.o)
+                0x0000000008000f20                daisy::DaisyPatch::StartAudio(void (*)(float**, float**, unsigned int))
  .text._ZN5daisy10DaisyPatch8StartAdcEv
-                0x0000000008000f64        0x8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_patch.o)
-                0x0000000008000f64                daisy::DaisyPatch::StartAdc()
+                0x0000000008000f38        0x8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_patch.o)
+                0x0000000008000f38                daisy::DaisyPatch::StartAdc()
  .text._ZN5daisy10DaisyPatch15AudioSampleRateEv
-                0x0000000008000f6c        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_patch.o)
-                0x0000000008000f6c                daisy::DaisyPatch::AudioSampleRate()
+                0x0000000008000f40        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_patch.o)
+                0x0000000008000f40                daisy::DaisyPatch::AudioSampleRate()
  .text._ZN5daisy10DaisyPatch20UpdateAnalogControlsEv
-                0x0000000008000f78       0x28 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_patch.o)
-                0x0000000008000f78                daisy::DaisyPatch::UpdateAnalogControls()
+                0x0000000008000f4c       0x28 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_patch.o)
+                0x0000000008000f4c                daisy::DaisyPatch::UpdateAnalogControls()
  .text._ZN5daisy10DaisyPatch16DebounceControlsEv
-                0x0000000008000fa0        0x8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_patch.o)
-                0x0000000008000fa0                daisy::DaisyPatch::DebounceControls()
+                0x0000000008000f74        0x8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_patch.o)
+                0x0000000008000f74                daisy::DaisyPatch::DebounceControls()
  .text._ZN5daisy10DaisyPatch12InitControlsEv
-                0x0000000008000fa8       0xc4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_patch.o)
-                0x0000000008000fa8                daisy::DaisyPatch::InitControls()
+                0x0000000008000f7c       0xc4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_patch.o)
+                0x0000000008000f7c                daisy::DaisyPatch::InitControls()
  .text._ZN5daisy10DaisyPatch4InitEv
-                0x000000000800106c      0x1b8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_patch.o)
-                0x000000000800106c                daisy::DaisyPatch::Init()
+                0x0000000008001040      0x1b8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_patch.o)
+                0x0000000008001040                daisy::DaisyPatch::Init()
  .text._ZN5daisy16AdcChannelConfig10InitSingleE12dsy_gpio_pin
-                0x0000000008001224       0x1c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_adc.o)
-                0x0000000008001224                daisy::AdcChannelConfig::InitSingle(dsy_gpio_pin)
+                0x00000000080011f8       0x1c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_adc.o)
+                0x00000000080011f8                daisy::AdcChannelConfig::InitSingle(dsy_gpio_pin)
  .text._ZN5daisy9AdcHandle4InitEPNS_16AdcChannelConfigEjNS0_12OverSamplingE
-                0x0000000008001240      0x5e8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_adc.o)
-                0x0000000008001240                daisy::AdcHandle::Init(daisy::AdcChannelConfig*, unsigned int, daisy::AdcHandle::OverSampling)
+                0x0000000008001214      0x5e8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_adc.o)
+                0x0000000008001214                daisy::AdcHandle::Init(daisy::AdcChannelConfig*, unsigned int, daisy::AdcHandle::OverSampling)
  .text._ZN5daisy9AdcHandle5StartEv
-                0x0000000008001828       0x38 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_adc.o)
-                0x0000000008001828                daisy::AdcHandle::Start()
+                0x00000000080017fc       0x38 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_adc.o)
+                0x00000000080017fc                daisy::AdcHandle::Start()
  .text._ZNK5daisy9AdcHandle6GetPtrEh
-                0x0000000008001860       0x14 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_adc.o)
-                0x0000000008001860                daisy::AdcHandle::GetPtr(unsigned char) const
+                0x0000000008001834       0x14 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_adc.o)
+                0x0000000008001834                daisy::AdcHandle::GetPtr(unsigned char) const
  .text.HAL_ADC_MspInit
-                0x0000000008001874       0x8c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_adc.o)
-                0x0000000008001874                HAL_ADC_MspInit
+                0x0000000008001848       0x8c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_adc.o)
+                0x0000000008001848                HAL_ADC_MspInit
  .text.DMA1_Stream2_IRQHandler
-                0x0000000008001900        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_adc.o)
-                0x0000000008001900                DMA1_Stream2_IRQHandler
+                0x00000000080018d4        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_adc.o)
+                0x00000000080018d4                DMA1_Stream2_IRQHandler
  .text.HAL_ADC_ConvHalfCpltCallback
-                0x000000000800190c       0xb8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_adc.o)
-                0x000000000800190c                HAL_ADC_ConvHalfCpltCallback
+                0x00000000080018e0       0xb8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_adc.o)
+                0x00000000080018e0                HAL_ADC_ConvHalfCpltCallback
  .text.combined_callback
-                0x00000000080019c4      0x3d4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
+                0x0000000008001998      0x3d4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
  .text.dsy_audio_passthru
-                0x0000000008001d98        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
-                0x0000000008001d98                dsy_audio_passthru
+                0x0000000008001d6c        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
+                0x0000000008001d6c                dsy_audio_passthru
  .text.internal_callback
-                0x0000000008001da4      0x19c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
+                0x0000000008001d78      0x19c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
  .text.DMA1_Stream0_IRQHandler
-                0x0000000008001f40        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
-                0x0000000008001f40                DMA1_Stream0_IRQHandler
+                0x0000000008001f14        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
+                0x0000000008001f14                DMA1_Stream0_IRQHandler
  .text.DMA1_Stream1_IRQHandler
-                0x0000000008001f4c        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
-                0x0000000008001f4c                DMA1_Stream1_IRQHandler
+                0x0000000008001f20        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
+                0x0000000008001f20                DMA1_Stream1_IRQHandler
  .text.DMA1_Stream3_IRQHandler
-                0x0000000008001f58        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
-                0x0000000008001f58                DMA1_Stream3_IRQHandler
+                0x0000000008001f2c        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
+                0x0000000008001f2c                DMA1_Stream3_IRQHandler
  .text.DMA1_Stream4_IRQHandler
-                0x0000000008001f64        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
-                0x0000000008001f64                DMA1_Stream4_IRQHandler
+                0x0000000008001f38        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
+                0x0000000008001f38                DMA1_Stream4_IRQHandler
  .text.dsy_audio_init
-                0x0000000008001f70      0x238 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
-                0x0000000008001f70                dsy_audio_init
+                0x0000000008001f44      0x238 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
+                0x0000000008001f44                dsy_audio_init
  .text.dsy_audio_set_mc_callback
-                0x00000000080021a8       0x14 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
-                0x00000000080021a8                dsy_audio_set_mc_callback
+                0x000000000800217c       0x14 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
+                0x000000000800217c                dsy_audio_set_mc_callback
  .text.dsy_audio_set_blocksize
-                0x00000000080021bc       0x2c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
-                0x00000000080021bc                dsy_audio_set_blocksize
+                0x0000000008002190       0x2c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
+                0x0000000008002190                dsy_audio_set_blocksize
  .text.dsy_audio_start
-                0x00000000080021e8       0xac /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
-                0x00000000080021e8                dsy_audio_start
+                0x00000000080021bc       0xac /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
+                0x00000000080021bc                dsy_audio_start
  .text.HAL_SAI_RxHalfCpltCallback
-                0x0000000008002294       0x2c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
-                0x0000000008002294                HAL_SAI_RxHalfCpltCallback
+                0x0000000008002268       0x2c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
+                0x0000000008002268                HAL_SAI_RxHalfCpltCallback
  .text.HAL_SAI_RxCpltCallback
-                0x00000000080022c0       0x3c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
-                0x00000000080022c0                HAL_SAI_RxCpltCallback
- *fill*         0x00000000080022fc        0x4 
+                0x0000000008002294       0x3c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
+                0x0000000008002294                HAL_SAI_RxCpltCallback
  .text.SystemClock_Config
-                0x0000000008002300      0x17c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(sys_system.o)
+                0x00000000080022d0      0x17c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(sys_system.o)
  .text.SysTick_Handler
-                0x000000000800247c       0x10 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(sys_system.o)
-                0x000000000800247c                SysTick_Handler
+                0x000000000800244c       0x10 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(sys_system.o)
+                0x000000000800244c                SysTick_Handler
  .text.HardFault_Handler
-                0x000000000800248c        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(sys_system.o)
-                0x000000000800248c                HardFault_Handler
+                0x000000000800245c        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(sys_system.o)
+                0x000000000800245c                HardFault_Handler
  .text.dsy_system_init
-                0x0000000008002490       0xdc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(sys_system.o)
-                0x0000000008002490                dsy_system_init
+                0x0000000008002460       0xdc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(sys_system.o)
+                0x0000000008002460                dsy_system_init
  .text.dsy_system_getnow
-                0x000000000800256c        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(sys_system.o)
-                0x000000000800256c                dsy_system_getnow
+                0x000000000800253c        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(sys_system.o)
+                0x000000000800253c                dsy_system_getnow
  .text.dsy_system_delay
-                0x0000000008002570        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(sys_system.o)
-                0x0000000008002570                dsy_system_delay
+                0x0000000008002540        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(sys_system.o)
+                0x0000000008002540                dsy_system_delay
  .text.dsy_i2c_init
-                0x0000000008002574       0xcc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_i2c.o)
-                0x0000000008002574                dsy_i2c_init
+                0x0000000008002544       0xcc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_i2c.o)
+                0x0000000008002544                dsy_i2c_init
  .text.HAL_I2C_MspInit
-                0x0000000008002640      0x2a8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_i2c.o)
-                0x0000000008002640                HAL_I2C_MspInit
+                0x0000000008002610      0x2a8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_i2c.o)
+                0x0000000008002610                HAL_I2C_MspInit
  .text.dsy_sai2_init
-                0x00000000080028e8       0x78 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_sai.o)
+                0x00000000080028b8       0x78 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_sai.o)
  .text.dsy_sai_blocks_init.constprop.0
-                0x0000000008002960       0xa4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_sai.o)
+                0x0000000008002930       0xa4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_sai.o)
  .text.dsy_sai_init_from_handle
-                0x0000000008002a04       0x88 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_sai.o)
-                0x0000000008002a04                dsy_sai_init_from_handle
+                0x00000000080029d4       0x88 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_sai.o)
+                0x00000000080029d4                dsy_sai_init_from_handle
  .text.HAL_SAI_MspInit
-                0x0000000008002a8c      0x41c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_sai.o)
-                0x0000000008002a8c                HAL_SAI_MspInit
+                0x0000000008002a5c      0x41c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_sai.o)
+                0x0000000008002a5c                HAL_SAI_MspInit
  .text.dsy_gpio_init
-                0x0000000008002ea8       0x58 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_gpio.o)
-                0x0000000008002ea8                dsy_gpio_init
+                0x0000000008002e78       0x58 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_gpio.o)
+                0x0000000008002e78                dsy_gpio_init
  .text.dsy_gpio_read
-                0x0000000008002f00       0x1c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_gpio.o)
-                0x0000000008002f00                dsy_gpio_read
+                0x0000000008002ed0       0x1c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_gpio.o)
+                0x0000000008002ed0                dsy_gpio_read
  .text.dsy_gpio_write
-                0x0000000008002f1c       0x24 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_gpio.o)
-                0x0000000008002f1c                dsy_gpio_write
+                0x0000000008002eec       0x24 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_gpio.o)
+                0x0000000008002eec                dsy_gpio_write
  .text.dsy_dac_init
-                0x0000000008002f40       0x6c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_dac.o)
-                0x0000000008002f40                dsy_dac_init
+                0x0000000008002f10       0x6c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_dac.o)
+                0x0000000008002f10                dsy_dac_init
  .text.dsy_dac_write
-                0x0000000008002fac       0x80 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_dac.o)
-                0x0000000008002fac                dsy_dac_write
+                0x0000000008002f7c       0x80 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_dac.o)
+                0x0000000008002f7c                dsy_dac_write
  .text.HAL_DAC_MspInit
-                0x000000000800302c       0xb0 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_dac.o)
-                0x000000000800302c                HAL_DAC_MspInit
+                0x0000000008002ffc       0xb0 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_dac.o)
+                0x0000000008002ffc                HAL_DAC_MspInit
  .text._ZN5daisy13AnalogControl4InitEPtfbbf
-                0x00000000080030dc       0x34 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_ctrl.o)
-                0x00000000080030dc                daisy::AnalogControl::Init(unsigned short*, float, bool, bool, float)
+                0x00000000080030ac       0x34 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_ctrl.o)
+                0x00000000080030ac                daisy::AnalogControl::Init(unsigned short*, float, bool, bool, float)
  .text._ZN5daisy13AnalogControl7ProcessEv
-                0x0000000008003110       0x48 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_ctrl.o)
-                0x0000000008003110                daisy::AnalogControl::Process()
+                0x00000000080030e0       0x48 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_ctrl.o)
+                0x00000000080030e0                daisy::AnalogControl::Process()
  .text._ZN5daisy7Encoder4InitE12dsy_gpio_pinS1_S1_f
-                0x0000000008003158       0x4c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_encoder.o)
-                0x0000000008003158                daisy::Encoder::Init(dsy_gpio_pin, dsy_gpio_pin, dsy_gpio_pin, float)
+                0x0000000008003128       0x4c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_encoder.o)
+                0x0000000008003128                daisy::Encoder::Init(dsy_gpio_pin, dsy_gpio_pin, dsy_gpio_pin, float)
  .text._ZN5daisy7Encoder8DebounceEv
-                0x00000000080031a4       0x60 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_encoder.o)
-                0x00000000080031a4                daisy::Encoder::Debounce()
+                0x0000000008003174       0x60 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_encoder.o)
+                0x0000000008003174                daisy::Encoder::Debounce()
  .text._ZN5daisy6GateIn4InitEP12dsy_gpio_pin
-                0x0000000008003204       0x10 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_gatein.o)
-                0x0000000008003204                daisy::GateIn::Init(dsy_gpio_pin*)
+                0x00000000080031d4       0x10 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_gatein.o)
+                0x00000000080031d4                daisy::GateIn::Init(dsy_gpio_pin*)
  .text._ZN5daisy11MidiHandler4InitENS0_13MidiInputModeENS0_14MidiOutputModeE
-                0x0000000008003214       0x20 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_midi.o)
-                0x0000000008003214                daisy::MidiHandler::Init(daisy::MidiHandler::MidiInputMode, daisy::MidiHandler::MidiOutputMode)
+                0x00000000080031e4       0x20 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_midi.o)
+                0x00000000080031e4                daisy::MidiHandler::Init(daisy::MidiHandler::MidiInputMode, daisy::MidiHandler::MidiOutputMode)
  .text._ZN5daisy9SpiHandleD2Ev
-                0x0000000008003234        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
-                0x0000000008003234                daisy::SpiHandle::~SpiHandle()
-                0x0000000008003234                daisy::SpiHandle::~SpiHandle()
+                0x0000000008003204        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
+                0x0000000008003204                daisy::SpiHandle::~SpiHandle()
+                0x0000000008003204                daisy::SpiHandle::~SpiHandle()
  .text._ZN5daisy11OledDisplay4FillEb
-                0x0000000008003238       0x14 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
-                0x0000000008003238                daisy::OledDisplay::Fill(bool)
+                0x0000000008003208       0x14 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
+                0x0000000008003208                daisy::OledDisplay::Fill(bool)
  .text._ZN5daisy11OledDisplay6UpdateEv
-                0x000000000800324c       0x8c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
-                0x000000000800324c                daisy::OledDisplay::Update()
+                0x000000000800321c       0x8c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
+                0x000000000800321c                daisy::OledDisplay::Update()
  .text._ZN5daisy11OledDisplay4InitEP12dsy_gpio_pin
-                0x00000000080032d8      0x328 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
-                0x00000000080032d8                daisy::OledDisplay::Init(dsy_gpio_pin*)
+                0x00000000080032a8      0x328 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
+                0x00000000080032a8                daisy::OledDisplay::Init(dsy_gpio_pin*)
  .text._ZN5daisy11OledDisplay9WriteCharEc7FontDefb
-                0x0000000008003600      0x1c8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
-                0x0000000008003600                daisy::OledDisplay::WriteChar(char, FontDef, bool)
+                0x00000000080035d0      0x1c8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
+                0x00000000080035d0                daisy::OledDisplay::WriteChar(char, FontDef, bool)
  .text._ZN5daisy11OledDisplay11WriteStringEPc7FontDefb
-                0x00000000080037c8       0x40 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
-                0x00000000080037c8                daisy::OledDisplay::WriteString(char*, FontDef, bool)
+                0x0000000008003798       0x40 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
+                0x0000000008003798                daisy::OledDisplay::WriteString(char*, FontDef, bool)
  .text._ZN5daisy11OledDisplay9SetCursorEhh
-                0x0000000008003808        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
-                0x0000000008003808                daisy::OledDisplay::SetCursor(unsigned char, unsigned char)
+                0x00000000080037d8        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
+                0x00000000080037d8                daisy::OledDisplay::SetCursor(unsigned char, unsigned char)
  .text.startup._GLOBAL__sub_I__ZN5daisy11OledDisplay4InitEP12dsy_gpio_pin
-                0x0000000008003814       0x18 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
+                0x00000000080037e4       0x18 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
  .text._ZN5daisy9Parameter4InitENS_13AnalogControlEffNS0_5CurveE
-                0x000000000800382c       0x6c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_parameter.o)
-                0x000000000800382c                daisy::Parameter::Init(daisy::AnalogControl, float, float, daisy::Parameter::Curve)
+                0x00000000080037fc       0x6c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_parameter.o)
+                0x00000000080037fc                daisy::Parameter::Init(daisy::AnalogControl, float, float, daisy::Parameter::Curve)
  .text._ZN5daisy9Parameter7ProcessEv
-                0x0000000008003898       0xa4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_parameter.o)
-                0x0000000008003898                daisy::Parameter::Process()
+                0x0000000008003868       0xa4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_parameter.o)
+                0x0000000008003868                daisy::Parameter::Process()
  .text._ZN5daisy6Switch4InitE12dsy_gpio_pinf
-                0x000000000800393c       0x38 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_switch.o)
-                0x000000000800393c                daisy::Switch::Init(dsy_gpio_pin, float)
+                0x000000000800390c       0x38 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_switch.o)
+                0x000000000800390c                daisy::Switch::Init(dsy_gpio_pin, float)
  .text._ZN5daisy6Switch8DebounceEv
-                0x0000000008003974       0x4c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_switch.o)
-                0x0000000008003974                daisy::Switch::Debounce()
+                0x0000000008003944       0x4c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_switch.o)
+                0x0000000008003944                daisy::Switch::Debounce()
  .text.dsy_hal_map_get_port
-                0x00000000080039c0       0x10 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(util_hal_map.o)
-                0x00000000080039c0                dsy_hal_map_get_port
+                0x0000000008003990       0x10 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(util_hal_map.o)
+                0x0000000008003990                dsy_hal_map_get_port
  .text.dsy_hal_map_get_pin
-                0x00000000080039d0       0x10 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(util_hal_map.o)
-                0x00000000080039d0                dsy_hal_map_get_pin
+                0x00000000080039a0       0x10 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(util_hal_map.o)
+                0x00000000080039a0                dsy_hal_map_get_pin
  .text.dsy_hal_map_get_i2c
-                0x00000000080039e0       0x28 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(util_hal_map.o)
-                0x00000000080039e0                dsy_hal_map_get_i2c
+                0x00000000080039b0       0x28 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(util_hal_map.o)
+                0x00000000080039b0                dsy_hal_map_get_i2c
  .text.HAL_ADC_ConvCpltCallback
-                0x0000000008003a08        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
-                0x0000000008003a08                HAL_ADC_ConvCpltCallback
+                0x00000000080039d8        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
+                0x00000000080039d8                HAL_ADC_ConvCpltCallback
  .text.ADC_DMAHalfConvCplt
-                0x0000000008003a0c        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
-                0x0000000008003a0c                ADC_DMAHalfConvCplt
+                0x00000000080039dc        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
+                0x00000000080039dc                ADC_DMAHalfConvCplt
  .text.HAL_ADC_ErrorCallback
-                0x0000000008003a18        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
-                0x0000000008003a18                HAL_ADC_ErrorCallback
+                0x00000000080039e8        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
+                0x00000000080039e8                HAL_ADC_ErrorCallback
  .text.ADC_DMAConvCplt
-                0x0000000008003a1c       0x6c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
-                0x0000000008003a1c                ADC_DMAConvCplt
+                0x00000000080039ec       0x6c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
+                0x00000000080039ec                ADC_DMAConvCplt
  .text.ADC_DMAError
-                0x0000000008003a88       0x1c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
-                0x0000000008003a88                ADC_DMAError
+                0x0000000008003a58       0x1c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
+                0x0000000008003a58                ADC_DMAError
  .text.HAL_ADC_ConfigChannel
-                0x0000000008003aa4      0x3fc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
-                0x0000000008003aa4                HAL_ADC_ConfigChannel
+                0x0000000008003a74      0x3fc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
+                0x0000000008003a74                HAL_ADC_ConfigChannel
  .text.ADC_Enable
-                0x0000000008003ea0       0xac /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
-                0x0000000008003ea0                ADC_Enable
+                0x0000000008003e70       0xac /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
+                0x0000000008003e70                ADC_Enable
  .text.HAL_ADC_Start_DMA
-                0x0000000008003f4c      0x118 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
-                0x0000000008003f4c                HAL_ADC_Start_DMA
+                0x0000000008003f1c      0x118 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
+                0x0000000008003f1c                HAL_ADC_Start_DMA
  .text.ADC_Disable
-                0x0000000008004064       0x68 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
-                0x0000000008004064                ADC_Disable
+                0x0000000008004034       0x68 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
+                0x0000000008004034                ADC_Disable
  .text.ADC_ConfigureBoostMode
-                0x00000000080040cc      0x190 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
-                0x00000000080040cc                ADC_ConfigureBoostMode
+                0x000000000800409c      0x190 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
+                0x000000000800409c                ADC_ConfigureBoostMode
  .text.HAL_ADC_Init
-                0x000000000800425c      0x214 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
-                0x000000000800425c                HAL_ADC_Init
+                0x000000000800422c      0x214 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
+                0x000000000800422c                HAL_ADC_Init
  .text.HAL_ADCEx_Calibration_Start
-                0x0000000008004470       0xa4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc_ex.o)
-                0x0000000008004470                HAL_ADCEx_Calibration_Start
+                0x0000000008004440       0xa4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc_ex.o)
+                0x0000000008004440                HAL_ADCEx_Calibration_Start
  .text.HAL_ADCEx_MultiModeConfigChannel
-                0x0000000008004514       0xc4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc_ex.o)
-                0x0000000008004514                HAL_ADCEx_MultiModeConfigChannel
+                0x00000000080044e4       0xc4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc_ex.o)
+                0x00000000080044e4                HAL_ADCEx_MultiModeConfigChannel
  .text.HAL_NVIC_SetPriorityGrouping
-                0x00000000080045d8       0x28 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
-                0x00000000080045d8                HAL_NVIC_SetPriorityGrouping
+                0x00000000080045a8       0x28 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
+                0x00000000080045a8                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x0000000008004600       0x74 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
-                0x0000000008004600                HAL_NVIC_SetPriority
+                0x00000000080045d0       0x74 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
+                0x00000000080045d0                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x0000000008004674       0x1c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
-                0x0000000008004674                HAL_NVIC_EnableIRQ
+                0x0000000008004644       0x1c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
+                0x0000000008004644                HAL_NVIC_EnableIRQ
  .text.HAL_NVIC_DisableIRQ
-                0x0000000008004690       0x28 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
-                0x0000000008004690                HAL_NVIC_DisableIRQ
+                0x0000000008004660       0x28 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
+                0x0000000008004660                HAL_NVIC_DisableIRQ
  .text.HAL_SYSTICK_Config
-                0x00000000080046b8       0x30 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
-                0x00000000080046b8                HAL_SYSTICK_Config
+                0x0000000008004688       0x30 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
+                0x0000000008004688                HAL_SYSTICK_Config
  .text.HAL_MPU_Disable
-                0x00000000080046e8       0x20 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
-                0x00000000080046e8                HAL_MPU_Disable
+                0x00000000080046b8       0x20 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
+                0x00000000080046b8                HAL_MPU_Disable
  .text.HAL_MPU_Enable
-                0x0000000008004708       0x24 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
-                0x0000000008004708                HAL_MPU_Enable
+                0x00000000080046d8       0x24 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
+                0x00000000080046d8                HAL_MPU_Enable
  .text.HAL_MPU_ConfigRegion
-                0x000000000800472c       0x50 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
-                0x000000000800472c                HAL_MPU_ConfigRegion
+                0x00000000080046fc       0x50 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
+                0x00000000080046fc                HAL_MPU_ConfigRegion
  .text.HAL_SYSTICK_Callback
-                0x000000000800477c        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
-                0x000000000800477c                HAL_SYSTICK_Callback
+                0x000000000800474c        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
+                0x000000000800474c                HAL_SYSTICK_Callback
  .text.HAL_SYSTICK_IRQHandler
-                0x0000000008004780        0x8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
-                0x0000000008004780                HAL_SYSTICK_IRQHandler
+                0x0000000008004750        0x8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
+                0x0000000008004750                HAL_SYSTICK_IRQHandler
  .text.HAL_DAC_Init
-                0x0000000008004788       0x2c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dac.o)
-                0x0000000008004788                HAL_DAC_Init
+                0x0000000008004758       0x2c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dac.o)
+                0x0000000008004758                HAL_DAC_Init
  .text.HAL_DAC_Start
-                0x00000000080047b4       0x58 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dac.o)
-                0x00000000080047b4                HAL_DAC_Start
+                0x0000000008004784       0x58 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dac.o)
+                0x0000000008004784                HAL_DAC_Start
  .text.HAL_DAC_SetValue
-                0x000000000800480c       0x30 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dac.o)
-                0x000000000800480c                HAL_DAC_SetValue
+                0x00000000080047dc       0x30 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dac.o)
+                0x00000000080047dc                HAL_DAC_SetValue
  .text.HAL_DAC_ConfigChannel
-                0x000000000800483c      0x140 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dac.o)
-                0x000000000800483c                HAL_DAC_ConfigChannel
+                0x000000000800480c      0x140 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dac.o)
+                0x000000000800480c                HAL_DAC_ConfigChannel
  .text.I2C_WaitOnTXISFlagUntilTimeout
-                0x000000000800497c       0xb8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_i2c.o)
+                0x000000000800494c       0xb8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_i2c.o)
  .text.I2C_WaitOnSTOPFlagUntilTimeout
-                0x0000000008004a34       0xac /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_i2c.o)
+                0x0000000008004a04       0xac /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_i2c.o)
  .text.HAL_I2C_Init
-                0x0000000008004ae0       0xa8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_i2c.o)
-                0x0000000008004ae0                HAL_I2C_Init
+                0x0000000008004ab0       0xa8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_i2c.o)
+                0x0000000008004ab0                HAL_I2C_Init
  .text.HAL_I2C_Master_Transmit
-                0x0000000008004b88      0x1b4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_i2c.o)
-                0x0000000008004b88                HAL_I2C_Master_Transmit
+                0x0000000008004b58      0x1b4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_i2c.o)
+                0x0000000008004b58                HAL_I2C_Master_Transmit
  .text.HAL_I2CEx_ConfigAnalogFilter
-                0x0000000008004d3c       0x58 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_i2c_ex.o)
-                0x0000000008004d3c                HAL_I2CEx_ConfigAnalogFilter
+                0x0000000008004d0c       0x58 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_i2c_ex.o)
+                0x0000000008004d0c                HAL_I2CEx_ConfigAnalogFilter
  .text.HAL_I2CEx_ConfigDigitalFilter
-                0x0000000008004d94       0x54 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_i2c_ex.o)
-                0x0000000008004d94                HAL_I2CEx_ConfigDigitalFilter
+                0x0000000008004d64       0x54 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_i2c_ex.o)
+                0x0000000008004d64                HAL_I2CEx_ConfigDigitalFilter
  .text.HAL_SAI_Init.part.0
-                0x0000000008004de8      0x364 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
+                0x0000000008004db8      0x364 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
  .text.HAL_SAI_InitProtocol
-                0x000000000800514c      0x184 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
-                0x000000000800514c                HAL_SAI_InitProtocol
+                0x000000000800511c      0x184 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
+                0x000000000800511c                HAL_SAI_InitProtocol
  .text.HAL_SAI_Transmit_DMA
-                0x00000000080052d0      0x124 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
-                0x00000000080052d0                HAL_SAI_Transmit_DMA
+                0x00000000080052a0      0x124 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
+                0x00000000080052a0                HAL_SAI_Transmit_DMA
  .text.HAL_SAI_Receive_DMA
-                0x00000000080053f4       0xcc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
-                0x00000000080053f4                HAL_SAI_Receive_DMA
+                0x00000000080053c4       0xcc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
+                0x00000000080053c4                HAL_SAI_Receive_DMA
  .text.HAL_SAI_TxCpltCallback
-                0x00000000080054c0        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
-                0x00000000080054c0                HAL_SAI_TxCpltCallback
+                0x0000000008005490        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
+                0x0000000008005490                HAL_SAI_TxCpltCallback
  .text.SAI_DMATxCplt
-                0x00000000080054c4       0x60 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
+                0x0000000008005494       0x60 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
  .text.HAL_SAI_TxHalfCpltCallback
-                0x0000000008005524        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
-                0x0000000008005524                HAL_SAI_TxHalfCpltCallback
+                0x00000000080054f4        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
+                0x00000000080054f4                HAL_SAI_TxHalfCpltCallback
  .text.SAI_DMATxHalfCplt
-                0x0000000008005528        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
+                0x00000000080054f8        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
  .text.SAI_DMARxCplt
-                0x0000000008005534       0x60 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
+                0x0000000008005504       0x60 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
  .text.SAI_DMARxHalfCplt
-                0x0000000008005594        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
+                0x0000000008005564        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
  .text.HAL_SAI_ErrorCallback
-                0x00000000080055a0        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
-                0x00000000080055a0                HAL_SAI_ErrorCallback
+                0x0000000008005570        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
+                0x0000000008005570                HAL_SAI_ErrorCallback
  .text.SAI_DMAError
-                0x00000000080055a4       0x6c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
+                0x0000000008005574       0x6c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
  .text.HAL_RCC_OscConfig
-                0x0000000008005610      0x538 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc.o)
-                0x0000000008005610                HAL_RCC_OscConfig
+                0x00000000080055e0      0x538 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc.o)
+                0x00000000080055e0                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x0000000008005b48      0x140 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc.o)
-                0x0000000008005b48                HAL_RCC_GetSysClockFreq
+                0x0000000008005b18      0x140 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc.o)
+                0x0000000008005b18                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x0000000008005c88      0x234 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc.o)
-                0x0000000008005c88                HAL_RCC_ClockConfig
+                0x0000000008005c58      0x234 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc.o)
+                0x0000000008005c58                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x0000000008005ebc       0x2c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc.o)
-                0x0000000008005ebc                HAL_RCC_GetHCLKFreq
+                0x0000000008005e8c       0x2c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc.o)
+                0x0000000008005e8c                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x0000000008005ee8       0x38 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc.o)
-                0x0000000008005ee8                HAL_RCC_GetPCLK1Freq
+                0x0000000008005eb8       0x38 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc.o)
+                0x0000000008005eb8                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x0000000008005f20       0x38 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc.o)
-                0x0000000008005f20                HAL_RCC_GetPCLK2Freq
+                0x0000000008005ef0       0x38 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc.o)
+                0x0000000008005ef0                HAL_RCC_GetPCLK2Freq
  .text.RCCEx_PLL2_Config
-                0x0000000008005f58       0xf8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
+                0x0000000008005f28       0xf8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
  .text.RCCEx_PLL3_Config
-                0x0000000008006050       0xf8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
+                0x0000000008006020       0xf8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x0000000008006148      0xa7c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
-                0x0000000008006148                HAL_RCCEx_PeriphCLKConfig
+                0x0000000008006118      0xa7c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
+                0x0000000008006118                HAL_RCCEx_PeriphCLKConfig
  .text.HAL_RCCEx_GetD3PCLK1Freq
-                0x0000000008006bc4       0x24 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
-                0x0000000008006bc4                HAL_RCCEx_GetD3PCLK1Freq
+                0x0000000008006b94       0x24 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
+                0x0000000008006b94                HAL_RCCEx_GetD3PCLK1Freq
  .text.HAL_RCCEx_GetPLL2ClockFreq
-                0x0000000008006be8      0x17c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
-                0x0000000008006be8                HAL_RCCEx_GetPLL2ClockFreq
+                0x0000000008006bb8      0x17c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
+                0x0000000008006bb8                HAL_RCCEx_GetPLL2ClockFreq
  .text.HAL_RCCEx_GetPLL3ClockFreq
-                0x0000000008006d64      0x17c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
-                0x0000000008006d64                HAL_RCCEx_GetPLL3ClockFreq
+                0x0000000008006d34      0x17c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
+                0x0000000008006d34                HAL_RCCEx_GetPLL3ClockFreq
  .text.HAL_RCCEx_GetPLL1ClockFreq
-                0x0000000008006ee0      0x17c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
-                0x0000000008006ee0                HAL_RCCEx_GetPLL1ClockFreq
+                0x0000000008006eb0      0x17c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
+                0x0000000008006eb0                HAL_RCCEx_GetPLL1ClockFreq
  .text.HAL_RCCEx_GetPeriphCLKFreq
-                0x000000000800705c      0x198 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
-                0x000000000800705c                HAL_RCCEx_GetPeriphCLKFreq
+                0x000000000800702c      0x198 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
+                0x000000000800702c                HAL_RCCEx_GetPeriphCLKFreq
  .text.HAL_RCCEx_GetD1SysClockFreq
-                0x00000000080071f4       0x2c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
-                0x00000000080071f4                HAL_RCCEx_GetD1SysClockFreq
+                0x00000000080071c4       0x2c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
+                0x00000000080071c4                HAL_RCCEx_GetD1SysClockFreq
  .text.HAL_GPIO_Init
-                0x0000000008007220      0x248 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_gpio.o)
-                0x0000000008007220                HAL_GPIO_Init
+                0x00000000080071f0      0x248 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_gpio.o)
+                0x00000000080071f0                HAL_GPIO_Init
  .text.HAL_GPIO_DeInit
-                0x0000000008007468      0x19c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_gpio.o)
-                0x0000000008007468                HAL_GPIO_DeInit
+                0x0000000008007438      0x19c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_gpio.o)
+                0x0000000008007438                HAL_GPIO_DeInit
  .text.HAL_GPIO_ReadPin
-                0x0000000008007604        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_gpio.o)
-                0x0000000008007604                HAL_GPIO_ReadPin
+                0x00000000080075d4        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_gpio.o)
+                0x00000000080075d4                HAL_GPIO_ReadPin
  .text.HAL_GPIO_WritePin
-                0x0000000008007610        0x8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_gpio.o)
-                0x0000000008007610                HAL_GPIO_WritePin
+                0x00000000080075e0        0x8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_gpio.o)
+                0x00000000080075e0                HAL_GPIO_WritePin
  .text.DMA_CalcBaseAndBitshift
-                0x0000000008007618       0xf8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dma.o)
+                0x00000000080075e8       0xf8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dma.o)
  .text.DMA_CalcDMAMUXChannelBaseAndMask
-                0x0000000008007710       0xd8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dma.o)
+                0x00000000080076e0       0xd8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dma.o)
  .text.HAL_DMA_Init
-                0x00000000080077e8      0x394 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dma.o)
-                0x00000000080077e8                HAL_DMA_Init
+                0x00000000080077b8      0x394 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dma.o)
+                0x00000000080077b8                HAL_DMA_Init
  .text.HAL_DMA_Start_IT
-                0x0000000008007b7c      0x250 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dma.o)
-                0x0000000008007b7c                HAL_DMA_Start_IT
+                0x0000000008007b4c      0x250 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dma.o)
+                0x0000000008007b4c                HAL_DMA_Start_IT
  .text.HAL_DMA_Abort_IT
-                0x0000000008007dcc      0x13c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dma.o)
-                0x0000000008007dcc                HAL_DMA_Abort_IT
+                0x0000000008007d9c      0x13c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dma.o)
+                0x0000000008007d9c                HAL_DMA_Abort_IT
  .text.HAL_DMA_IRQHandler
-                0x0000000008007f08      0x6bc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dma.o)
-                0x0000000008007f08                HAL_DMA_IRQHandler
+                0x0000000008007ed8      0x6bc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dma.o)
+                0x0000000008007ed8                HAL_DMA_IRQHandler
  .text.HAL_DMA_GetError
-                0x00000000080085c4        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dma.o)
-                0x00000000080085c4                HAL_DMA_GetError
+                0x0000000008008594        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dma.o)
+                0x0000000008008594                HAL_DMA_GetError
  .text.HAL_PWREx_ConfigSupply
-                0x00000000080085c8       0x4c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_pwr_ex.o)
-                0x00000000080085c8                HAL_PWREx_ConfigSupply
+                0x0000000008008598       0x4c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_pwr_ex.o)
+                0x0000000008008598                HAL_PWREx_ConfigSupply
  .text.HAL_PWREx_EnableUSBVoltageDetector
-                0x0000000008008614       0x10 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_pwr_ex.o)
-                0x0000000008008614                HAL_PWREx_EnableUSBVoltageDetector
+                0x00000000080085e4       0x10 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_pwr_ex.o)
+                0x00000000080085e4                HAL_PWREx_EnableUSBVoltageDetector
  .text.HAL_MspInit
-                0x0000000008008624        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal.o)
-                0x0000000008008624                HAL_MspInit
+                0x00000000080085f4        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal.o)
+                0x00000000080085f4                HAL_MspInit
  .text.HAL_InitTick
-                0x0000000008008628       0x4c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal.o)
-                0x0000000008008628                HAL_InitTick
+                0x00000000080085f8       0x4c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal.o)
+                0x00000000080085f8                HAL_InitTick
  .text.HAL_Init
-                0x0000000008008674       0x5c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal.o)
-                0x0000000008008674                HAL_Init
+                0x0000000008008644       0x5c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal.o)
+                0x0000000008008644                HAL_Init
  .text.HAL_IncTick
-                0x00000000080086d0       0x18 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal.o)
-                0x00000000080086d0                HAL_IncTick
+                0x00000000080086a0       0x18 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal.o)
+                0x00000000080086a0                HAL_IncTick
  .text.HAL_GetTick
-                0x00000000080086e8        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal.o)
-                0x00000000080086e8                HAL_GetTick
+                0x00000000080086b8        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal.o)
+                0x00000000080086b8                HAL_GetTick
  .text.HAL_Delay
-                0x00000000080086f4       0x24 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal.o)
-                0x00000000080086f4                HAL_Delay
+                0x00000000080086c4       0x24 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal.o)
+                0x00000000080086c4                HAL_Delay
  .text.HAL_GetREVID
-                0x0000000008008718        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal.o)
-                0x0000000008008718                HAL_GetREVID
+                0x00000000080086e8        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal.o)
+                0x00000000080086e8                HAL_GetREVID
  .text._ZN5daisy9DaisySeed9ConfigureEv
-                0x0000000008008724       0xe0 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_seed.o)
-                0x0000000008008724                daisy::DaisySeed::Configure()
+                0x00000000080086f4       0xe0 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_seed.o)
+                0x00000000080086f4                daisy::DaisySeed::Configure()
  .text._ZN5daisy9DaisySeed4InitEv
-                0x0000000008008804       0x34 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_seed.o)
-                0x0000000008008804                daisy::DaisySeed::Init()
+                0x00000000080087d4       0x34 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_seed.o)
+                0x00000000080087d4                daisy::DaisySeed::Init()
  .text._ZN5daisy9DaisySeed6GetPinEh
-                0x0000000008008838       0x2c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_seed.o)
-                0x0000000008008838                daisy::DaisySeed::GetPin(unsigned char)
+                0x0000000008008808       0x2c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_seed.o)
+                0x0000000008008808                daisy::DaisySeed::GetPin(unsigned char)
  .text.codec_pcm3060_init
-                0x0000000008008864       0x80 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(dev_codec_pcm3060.o)
-                0x0000000008008864                codec_pcm3060_init
+                0x0000000008008834       0x80 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(dev_codec_pcm3060.o)
+                0x0000000008008834                codec_pcm3060_init
  .text.codec_wm8731_init
-                0x00000000080088e4      0x20c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(dev_codec_wm8731.o)
-                0x00000000080088e4                codec_wm8731_init
+                0x00000000080088b4      0x20c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(dev_codec_wm8731.o)
+                0x00000000080088b4                codec_wm8731_init
  .text.codec_ak4556_init
-                0x0000000008008af0       0x34 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(dev_codec_ak4556.o)
-                0x0000000008008af0                codec_ak4556_init
+                0x0000000008008ac0       0x34 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(dev_codec_ak4556.o)
+                0x0000000008008ac0                codec_ak4556_init
  .text.dsy_dma_init
-                0x0000000008008b24       0x88 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(sys_dma.o)
-                0x0000000008008b24                dsy_dma_init
+                0x0000000008008af4       0x88 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(sys_dma.o)
+                0x0000000008008af4                dsy_dma_init
  .text.dsy_qspi_init
-                0x0000000008008bac      0x390 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_qspi.o)
-                0x0000000008008bac                dsy_qspi_init
+                0x0000000008008b7c      0x390 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_qspi.o)
+                0x0000000008008b7c                dsy_qspi_init
  .text.HAL_QSPI_MspInit
-                0x0000000008008f3c      0x10c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_qspi.o)
-                0x0000000008008f3c                HAL_QSPI_MspInit
+                0x0000000008008f0c      0x10c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_qspi.o)
+                0x0000000008008f0c                HAL_QSPI_MspInit
  .text.HAL_QSPI_MspDeInit
-                0x0000000008009048       0x58 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_qspi.o)
-                0x0000000008009048                HAL_QSPI_MspDeInit
+                0x0000000008009018       0x58 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_qspi.o)
+                0x0000000008009018                HAL_QSPI_MspDeInit
  .text.QUADSPI_IRQHandler
-                0x00000000080090a0        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_qspi.o)
-                0x00000000080090a0                QUADSPI_IRQHandler
+                0x0000000008009070        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_qspi.o)
+                0x0000000008009070                QUADSPI_IRQHandler
  .text.dsy_sdram_init
-                0x00000000080090ac      0x120 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(dev_sdram.o)
-                0x00000000080090ac                dsy_sdram_init
+                0x000000000800907c      0x120 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(dev_sdram.o)
+                0x000000000800907c                dsy_sdram_init
  .text.HAL_SDRAM_MspInit
-                0x00000000080091cc      0x1cc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(dev_sdram.o)
-                0x00000000080091cc                HAL_SDRAM_MspInit
+                0x000000000800919c      0x1cc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(dev_sdram.o)
+                0x000000000800919c                HAL_SDRAM_MspInit
  .text._ZN5daisy9SpiHandle4InitEv
-                0x0000000008009398       0x58 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_spi.o)
-                0x0000000008009398                daisy::SpiHandle::Init()
+                0x0000000008009368       0x58 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_spi.o)
+                0x0000000008009368                daisy::SpiHandle::Init()
  .text._ZN5daisy9SpiHandle16BlockingTransmitEPhj
-                0x00000000080093f0       0x10 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_spi.o)
-                0x00000000080093f0                daisy::SpiHandle::BlockingTransmit(unsigned char*, unsigned int)
+                0x00000000080093c0       0x10 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_spi.o)
+                0x00000000080093c0                daisy::SpiHandle::BlockingTransmit(unsigned char*, unsigned int)
  .text.HAL_SPI_MspInit
-                0x0000000008009400       0xdc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_spi.o)
-                0x0000000008009400                HAL_SPI_MspInit
+                0x00000000080093d0       0xdc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_spi.o)
+                0x00000000080093d0                HAL_SPI_MspInit
  .text.dsy_tim_init
-                0x00000000080094dc       0x70 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_tim.o)
-                0x00000000080094dc                dsy_tim_init
+                0x00000000080094ac       0x70 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_tim.o)
+                0x00000000080094ac                dsy_tim_init
  .text.HAL_TIM_Base_MspInit
-                0x000000000800954c       0x30 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_tim.o)
-                0x000000000800954c                HAL_TIM_Base_MspInit
+                0x000000000800951c       0x30 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_tim.o)
+                0x000000000800951c                HAL_TIM_Base_MspInit
  .text._ZN5daisy11UartHandler4InitEv
-                0x000000000800957c       0x74 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_uart.o)
-                0x000000000800957c                daisy::UartHandler::Init()
+                0x000000000800954c       0x74 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_uart.o)
+                0x000000000800954c                daisy::UartHandler::Init()
  .text.HAL_UART_ErrorCallback
-                0x00000000080095f0       0x14 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_uart.o)
-                0x00000000080095f0                HAL_UART_ErrorCallback
+                0x00000000080095c0       0x14 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_uart.o)
+                0x00000000080095c0                HAL_UART_ErrorCallback
  .text.HAL_UART_MspInit
-                0x0000000008009604       0xe4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_uart.o)
-                0x0000000008009604                HAL_UART_MspInit
+                0x00000000080095d4       0xe4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_uart.o)
+                0x00000000080095d4                HAL_UART_MspInit
  .text.USART1_IRQHandler
-                0x00000000080096e8        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_uart.o)
-                0x00000000080096e8                USART1_IRQHandler
+                0x00000000080096b8        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_uart.o)
+                0x00000000080096b8                USART1_IRQHandler
  .text.DMA1_Stream5_IRQHandler
-                0x00000000080096f4        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_uart.o)
-                0x00000000080096f4                DMA1_Stream5_IRQHandler
+                0x00000000080096c4        0xc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_uart.o)
+                0x00000000080096c4                DMA1_Stream5_IRQHandler
  .text.HAL_SDRAM_Init
-                0x0000000008009700       0x54 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sdram.o)
-                0x0000000008009700                HAL_SDRAM_Init
+                0x00000000080096d0       0x54 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sdram.o)
+                0x00000000080096d0                HAL_SDRAM_Init
  .text.HAL_SDRAM_SendCommand
-                0x0000000008009754       0x40 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sdram.o)
-                0x0000000008009754                HAL_SDRAM_SendCommand
+                0x0000000008009724       0x40 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sdram.o)
+                0x0000000008009724                HAL_SDRAM_SendCommand
  .text.HAL_SDRAM_ProgramRefreshRate
-                0x0000000008009794       0x30 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sdram.o)
-                0x0000000008009794                HAL_SDRAM_ProgramRefreshRate
+                0x0000000008009764       0x30 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sdram.o)
+                0x0000000008009764                HAL_SDRAM_ProgramRefreshRate
  .text.QSPI_Config
-                0x00000000080097c4      0x1d4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x0000000008009794      0x1d4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
  .text.HAL_QSPI_Init
-                0x0000000008009998       0xd8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
-                0x0000000008009998                HAL_QSPI_Init
+                0x0000000008009968       0xd8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x0000000008009968                HAL_QSPI_Init
  .text.HAL_QSPI_DeInit
-                0x0000000008009a70       0x3c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
-                0x0000000008009a70                HAL_QSPI_DeInit
+                0x0000000008009a40       0x3c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x0000000008009a40                HAL_QSPI_DeInit
  .text.HAL_QSPI_Command
-                0x0000000008009aac       0xd4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
-                0x0000000008009aac                HAL_QSPI_Command
+                0x0000000008009a7c       0xd4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x0000000008009a7c                HAL_QSPI_Command
  .text.HAL_QSPI_Transmit
-                0x0000000008009b80       0xfc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
-                0x0000000008009b80                HAL_QSPI_Transmit
+                0x0000000008009b50       0xfc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x0000000008009b50                HAL_QSPI_Transmit
  .text.HAL_QSPI_Receive
-                0x0000000008009c7c      0x108 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
-                0x0000000008009c7c                HAL_QSPI_Receive
+                0x0000000008009c4c      0x108 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x0000000008009c4c                HAL_QSPI_Receive
  .text.HAL_QSPI_AutoPolling
-                0x0000000008009d84       0xe8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
-                0x0000000008009d84                HAL_QSPI_AutoPolling
+                0x0000000008009d54       0xe8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x0000000008009d54                HAL_QSPI_AutoPolling
  .text.HAL_QSPI_MemoryMapped
-                0x0000000008009e6c       0xb8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
-                0x0000000008009e6c                HAL_QSPI_MemoryMapped
+                0x0000000008009e3c       0xb8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x0000000008009e3c                HAL_QSPI_MemoryMapped
  .text.HAL_QSPI_ErrorCallback
-                0x0000000008009f24        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
-                0x0000000008009f24                HAL_QSPI_ErrorCallback
+                0x0000000008009ef4        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x0000000008009ef4                HAL_QSPI_ErrorCallback
  .text.QSPI_DMAAbortCplt
-                0x0000000008009f28       0x38 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x0000000008009ef8       0x38 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
  .text.HAL_QSPI_AbortCpltCallback
-                0x0000000008009f60        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
-                0x0000000008009f60                HAL_QSPI_AbortCpltCallback
+                0x0000000008009f30        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x0000000008009f30                HAL_QSPI_AbortCpltCallback
  .text.HAL_QSPI_CmdCpltCallback
-                0x0000000008009f64        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
-                0x0000000008009f64                HAL_QSPI_CmdCpltCallback
+                0x0000000008009f34        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x0000000008009f34                HAL_QSPI_CmdCpltCallback
  .text.HAL_QSPI_RxCpltCallback
-                0x0000000008009f68        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
-                0x0000000008009f68                HAL_QSPI_RxCpltCallback
+                0x0000000008009f38        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x0000000008009f38                HAL_QSPI_RxCpltCallback
  .text.HAL_QSPI_TxCpltCallback
-                0x0000000008009f6c        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
-                0x0000000008009f6c                HAL_QSPI_TxCpltCallback
+                0x0000000008009f3c        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x0000000008009f3c                HAL_QSPI_TxCpltCallback
  .text.HAL_QSPI_FifoThresholdCallback
-                0x0000000008009f70        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
-                0x0000000008009f70                HAL_QSPI_FifoThresholdCallback
+                0x0000000008009f40        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x0000000008009f40                HAL_QSPI_FifoThresholdCallback
  .text.HAL_QSPI_StatusMatchCallback
-                0x0000000008009f74        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
-                0x0000000008009f74                HAL_QSPI_StatusMatchCallback
+                0x0000000008009f44        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x0000000008009f44                HAL_QSPI_StatusMatchCallback
  .text.HAL_QSPI_TimeOutCallback
-                0x0000000008009f78        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
-                0x0000000008009f78                HAL_QSPI_TimeOutCallback
+                0x0000000008009f48        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x0000000008009f48                HAL_QSPI_TimeOutCallback
  .text.HAL_QSPI_IRQHandler
-                0x0000000008009f7c      0x210 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
-                0x0000000008009f7c                HAL_QSPI_IRQHandler
+                0x0000000008009f4c      0x210 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x0000000008009f4c                HAL_QSPI_IRQHandler
  .text.SPI_CloseTransfer
-                0x000000000800a18c       0xb8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_spi.o)
+                0x000000000800a15c       0xb8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_spi.o)
  .text.HAL_SPI_Init
-                0x000000000800a244      0x168 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_spi.o)
-                0x000000000800a244                HAL_SPI_Init
+                0x000000000800a214      0x168 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_spi.o)
+                0x000000000800a214                HAL_SPI_Init
  .text.HAL_SPI_Transmit
-                0x000000000800a3ac      0x32c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_spi.o)
-                0x000000000800a3ac                HAL_SPI_Transmit
+                0x000000000800a37c      0x32c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_spi.o)
+                0x000000000800a37c                HAL_SPI_Transmit
  .text.HAL_TIM_Base_Init
-                0x000000000800a6d8      0x130 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_tim.o)
-                0x000000000800a6d8                HAL_TIM_Base_Init
+                0x000000000800a6a8      0x130 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_tim.o)
+                0x000000000800a6a8                HAL_TIM_Base_Init
  .text.HAL_TIM_ConfigClockSource
-                0x000000000800a808      0x17c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_tim.o)
-                0x000000000800a808                HAL_TIM_ConfigClockSource
+                0x000000000800a7d8      0x17c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_tim.o)
+                0x000000000800a7d8                HAL_TIM_ConfigClockSource
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x000000000800a984       0x60 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_tim_ex.o)
-                0x000000000800a984                HAL_TIMEx_MasterConfigSynchronization
+                0x000000000800a954       0x60 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_tim_ex.o)
+                0x000000000800a954                HAL_TIMEx_MasterConfigSynchronization
  .text.HAL_UART_TxCpltCallback
-                0x000000000800a9e4        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
-                0x000000000800a9e4                HAL_UART_TxCpltCallback
+                0x000000000800a9b4        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
+                0x000000000800a9b4                HAL_UART_TxCpltCallback
  .text.HAL_UART_IRQHandler
-                0x000000000800a9e8      0x1cc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
-                0x000000000800a9e8                HAL_UART_IRQHandler
+                0x000000000800a9b8      0x1cc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
+                0x000000000800a9b8                HAL_UART_IRQHandler
  .text.UART_DMAAbortOnError
-                0x000000000800abb4       0x14 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
+                0x000000000800ab84       0x14 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
  .text.UART_SetConfig
-                0x000000000800abc8     0x14dc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
-                0x000000000800abc8                UART_SetConfig
+                0x000000000800ab98     0x14dc /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
+                0x000000000800ab98                UART_SetConfig
  .text.UART_AdvFeatureConfig
-                0x000000000800c0a4       0xb0 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
-                0x000000000800c0a4                UART_AdvFeatureConfig
+                0x000000000800c074       0xb0 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
+                0x000000000800c074                UART_AdvFeatureConfig
  .text.UART_CheckIdleState
-                0x000000000800c154       0x84 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
-                0x000000000800c154                UART_CheckIdleState
+                0x000000000800c124       0x84 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
+                0x000000000800c124                UART_CheckIdleState
  .text.HAL_UART_Init
-                0x000000000800c1d8       0x68 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
-                0x000000000800c1d8                HAL_UART_Init
+                0x000000000800c1a8       0x68 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
+                0x000000000800c1a8                HAL_UART_Init
  .text.HAL_UARTEx_WakeupCallback
-                0x000000000800c240        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart_ex.o)
-                0x000000000800c240                HAL_UARTEx_WakeupCallback
+                0x000000000800c210        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart_ex.o)
+                0x000000000800c210                HAL_UARTEx_WakeupCallback
  .text.HAL_UARTEx_RxFifoFullCallback
-                0x000000000800c244        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart_ex.o)
-                0x000000000800c244                HAL_UARTEx_RxFifoFullCallback
+                0x000000000800c214        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart_ex.o)
+                0x000000000800c214                HAL_UARTEx_RxFifoFullCallback
  .text.HAL_UARTEx_TxFifoEmptyCallback
-                0x000000000800c248        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart_ex.o)
-                0x000000000800c248                HAL_UARTEx_TxFifoEmptyCallback
+                0x000000000800c218        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart_ex.o)
+                0x000000000800c218                HAL_UARTEx_TxFifoEmptyCallback
  .text.HAL_UARTEx_DisableFifoMode
-                0x000000000800c24c       0x3c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart_ex.o)
-                0x000000000800c24c                HAL_UARTEx_DisableFifoMode
+                0x000000000800c21c       0x3c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart_ex.o)
+                0x000000000800c21c                HAL_UARTEx_DisableFifoMode
  .text.HAL_UARTEx_SetTxFifoThreshold
-                0x000000000800c288       0xac /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart_ex.o)
-                0x000000000800c288                HAL_UARTEx_SetTxFifoThreshold
+                0x000000000800c258       0xac /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart_ex.o)
+                0x000000000800c258                HAL_UARTEx_SetTxFifoThreshold
  .text.HAL_UARTEx_SetRxFifoThreshold
-                0x000000000800c334       0xac /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart_ex.o)
-                0x000000000800c334                HAL_UARTEx_SetRxFifoThreshold
+                0x000000000800c304       0xac /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart_ex.o)
+                0x000000000800c304                HAL_UARTEx_SetRxFifoThreshold
  .text.HAL_MDMA_Abort_IT
-                0x000000000800c3e0       0x2c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_mdma.o)
-                0x000000000800c3e0                HAL_MDMA_Abort_IT
+                0x000000000800c3b0       0x2c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_mdma.o)
+                0x000000000800c3b0                HAL_MDMA_Abort_IT
  .text.FMC_SDRAM_Init
-                0x000000000800c40c       0x78 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_ll_fmc.o)
-                0x000000000800c40c                FMC_SDRAM_Init
+                0x000000000800c3dc       0x78 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_ll_fmc.o)
+                0x000000000800c3dc                FMC_SDRAM_Init
  .text.FMC_SDRAM_Timing_Init
-                0x000000000800c484       0x98 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_ll_fmc.o)
-                0x000000000800c484                FMC_SDRAM_Timing_Init
+                0x000000000800c454       0x98 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_ll_fmc.o)
+                0x000000000800c454                FMC_SDRAM_Timing_Init
  .text.FMC_SDRAM_SendCommand
-                0x000000000800c51c       0x24 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_ll_fmc.o)
-                0x000000000800c51c                FMC_SDRAM_SendCommand
+                0x000000000800c4ec       0x24 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_ll_fmc.o)
+                0x000000000800c4ec                FMC_SDRAM_SendCommand
  .text.FMC_SDRAM_ProgramRefreshRate
-                0x000000000800c540       0x1c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_ll_fmc.o)
-                0x000000000800c540                FMC_SDRAM_ProgramRefreshRate
- *fill*         0x000000000800c55c        0x4 
+                0x000000000800c510       0x1c /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_ll_fmc.o)
+                0x000000000800c510                FMC_SDRAM_ProgramRefreshRate
+ *fill*         0x000000000800c52c        0x4 
  .text._ZN7daisysp5Metro4InitEff
-                0x000000000800c560       0x38 /Users/jhe1/sdks/DaisyExamples/DaisySP/build/libdaisysp.a(metro.o)
-                0x000000000800c560                daisysp::Metro::Init(float, float)
+                0x000000000800c530       0x38 /Users/jhe1/sdks/DaisyExamples/DaisySP/build/libdaisysp.a(metro.o)
+                0x000000000800c530                daisysp::Metro::Init(float, float)
  .text._ZN7daisysp5Metro7ProcessEv
-                0x000000000800c598       0x40 /Users/jhe1/sdks/DaisyExamples/DaisySP/build/libdaisysp.a(metro.o)
-                0x000000000800c598                daisysp::Metro::Process()
+                0x000000000800c568       0x40 /Users/jhe1/sdks/DaisyExamples/DaisySP/build/libdaisysp.a(metro.o)
+                0x000000000800c568                daisysp::Metro::Process()
  .text._ZN7daisysp5Metro7SetFreqEf
-                0x000000000800c5d8       0x30 /Users/jhe1/sdks/DaisyExamples/DaisySP/build/libdaisysp.a(metro.o)
-                0x000000000800c5d8                daisysp::Metro::SetFreq(float)
+                0x000000000800c5a8       0x30 /Users/jhe1/sdks/DaisyExamples/DaisySP/build/libdaisysp.a(metro.o)
+                0x000000000800c5a8                daisysp::Metro::SetFreq(float)
  .text.__aeabi_atexit
-                0x000000000800c608        0xa /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(atexit_arm.o)
-                0x000000000800c608                __aeabi_atexit
- .text._ZdlPv   0x000000000800c612        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(del_op.o)
-                0x000000000800c612                operator delete(void*)
+                0x000000000800c5d8        0xa /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(atexit_arm.o)
+                0x000000000800c5d8                __aeabi_atexit
+ .text._ZdlPv   0x000000000800c5e2        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(del_op.o)
+                0x000000000800c5e2                operator delete(void*)
  .text._ZNSt11char_traitsIcE4copyEPcPKcj
-                0x000000000800c616        0x8 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
-                0x000000000800c616                std::char_traits<char>::copy(char*, char const*, unsigned int)
- *fill*         0x000000000800c61e        0x2 
+                0x000000000800c5e6        0x8 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
+                0x000000000800c5e6                std::char_traits<char>::copy(char*, char const*, unsigned int)
+ *fill*         0x000000000800c5ee        0x2 
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj
-                0x000000000800c620       0x44 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
-                0x000000000800c620                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned int&, unsigned int)
+                0x000000000800c5f0       0x44 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
+                0x000000000800c5f0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned int&, unsigned int)
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv
-                0x000000000800c664       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
-                0x000000000800c664                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_dispose()
+                0x000000000800c634       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
+                0x000000000800c634                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_dispose()
  .text._ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE15_M_check_lengthEjjPKc
-                0x000000000800c674       0x18 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
-                0x000000000800c674                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_check_length(unsigned int, unsigned int, char const*) const
+                0x000000000800c644       0x18 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
+                0x000000000800c644                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_check_length(unsigned int, unsigned int, char const*) const
  .text._ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE11_M_disjunctEPKc
-                0x000000000800c68c       0x18 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
-                0x000000000800c68c                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_disjunct(char const*) const
+                0x000000000800c65c       0x18 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
+                0x000000000800c65c                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_disjunct(char const*) const
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_S_copyEPcPKcj
-                0x000000000800c6a4       0x12 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
-                0x000000000800c6a4                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_copy(char*, char const*, unsigned int)
+                0x000000000800c674       0x12 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
+                0x000000000800c674                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_copy(char*, char const*, unsigned int)
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_S_moveEPcPKcj
-                0x000000000800c6b6       0x18 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
-                0x000000000800c6b6                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_move(char*, char const*, unsigned int)
+                0x000000000800c686       0x18 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
+                0x000000000800c686                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_move(char*, char const*, unsigned int)
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_
-                0x000000000800c6ce       0x4c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
-                0x000000000800c6ce                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+                0x000000000800c69e       0x4c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
+                0x000000000800c69e                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEjjPKcj
-                0x000000000800c71a       0x78 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
-                0x000000000800c71a                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned int, unsigned int, char const*, unsigned int)
- *fill*         0x000000000800c792        0x2 
+                0x000000000800c6ea       0x78 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
+                0x000000000800c6ea                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned int, unsigned int, char const*, unsigned int)
+ *fill*         0x000000000800c762        0x2 
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj
-                0x000000000800c794       0xfc /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
-                0x000000000800c794                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned int, unsigned int, char const*, unsigned int)
- .text._Znwj    0x000000000800c890       0x22 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(new_op.o)
-                0x000000000800c890                operator new(unsigned int)
+                0x000000000800c764       0xfc /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
+                0x000000000800c764                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned int, unsigned int, char const*, unsigned int)
+ .text._Znwj    0x000000000800c860       0x22 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(new_op.o)
+                0x000000000800c860                operator new(unsigned int)
  .text.unlikely._ZSt17__throw_bad_allocv
-                0x000000000800c8b2        0x6 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(functexcept.o)
-                0x000000000800c8b2                std::__throw_bad_alloc()
+                0x000000000800c882        0x6 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(functexcept.o)
+                0x000000000800c882                std::__throw_bad_alloc()
  .text.unlikely._ZSt20__throw_length_errorPKc
-                0x000000000800c8b8        0x6 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(functexcept.o)
-                0x000000000800c8b8                std::__throw_length_error(char const*)
- *fill*         0x000000000800c8be        0x2 
+                0x000000000800c888        0x6 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(functexcept.o)
+                0x000000000800c888                std::__throw_length_error(char const*)
+ *fill*         0x000000000800c88e        0x2 
  .text._ZSt15get_new_handlerv
-                0x000000000800c8c0       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(new_handler.o)
-                0x000000000800c8c0                std::get_new_handler()
- .text.expf     0x000000000800c8d0       0xe4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-sf_exp.o)
-                0x000000000800c8d0                expf
- .text.logf     0x000000000800c9b4       0xd0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-sf_log.o)
-                0x000000000800c9b4                logf
+                0x000000000800c890       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(new_handler.o)
+                0x000000000800c890                std::get_new_handler()
+ .text.expf     0x000000000800c8a0       0xe4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-sf_exp.o)
+                0x000000000800c8a0                expf
+ .text.logf     0x000000000800c984       0xd0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-sf_log.o)
+                0x000000000800c984                logf
  .text.with_errnof
-                0x000000000800ca84       0x18 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-math_errf.o)
- .text.xflowf   0x000000000800ca9c       0x20 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-math_errf.o)
+                0x000000000800ca54       0x18 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-math_errf.o)
+ .text.xflowf   0x000000000800ca6c       0x20 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-math_errf.o)
  .text.__math_uflowf
-                0x000000000800cabc        0xc /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-math_errf.o)
-                0x000000000800cabc                __math_uflowf
+                0x000000000800ca8c        0xc /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-math_errf.o)
+                0x000000000800ca8c                __math_uflowf
  .text.__math_may_uflowf
-                0x000000000800cac8        0xc /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-math_errf.o)
-                0x000000000800cac8                __math_may_uflowf
+                0x000000000800ca98        0xc /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-math_errf.o)
+                0x000000000800ca98                __math_may_uflowf
  .text.__math_oflowf
-                0x000000000800cad4        0xc /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-math_errf.o)
-                0x000000000800cad4                __math_oflowf
+                0x000000000800caa4        0xc /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-math_errf.o)
+                0x000000000800caa4                __math_oflowf
  .text.__math_divzerof
-                0x000000000800cae0       0x24 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-math_errf.o)
-                0x000000000800cae0                __math_divzerof
+                0x000000000800cab0       0x24 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-math_errf.o)
+                0x000000000800cab0                __math_divzerof
  .text.__math_invalidf
-                0x000000000800cb04       0x20 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-math_errf.o)
-                0x000000000800cb04                __math_invalidf
- .text.abort    0x000000000800cb24        0xe /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-abort.o)
-                0x000000000800cb24                abort
- *fill*         0x000000000800cb32        0x2 
+                0x000000000800cad4       0x20 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-math_errf.o)
+                0x000000000800cad4                __math_invalidf
+ .text.abort    0x000000000800caf4        0xe /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-abort.o)
+                0x000000000800caf4                abort
+ *fill*         0x000000000800cb02        0x2 
  .text.__cxa_atexit
-                0x000000000800cb34       0x1c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-cxa_atexit.o)
-                0x000000000800cb34                __cxa_atexit
- .text.__errno  0x000000000800cb50        0xc /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-errno.o)
-                0x000000000800cb50                __errno
+                0x000000000800cb04       0x1c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-cxa_atexit.o)
+                0x000000000800cb04                __cxa_atexit
+ .text.__errno  0x000000000800cb20        0xc /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-errno.o)
+                0x000000000800cb20                __errno
  .text.__libc_init_array
-                0x000000000800cb5c       0x48 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-init.o)
-                0x000000000800cb5c                __libc_init_array
- .text.malloc   0x000000000800cba4       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-malloc.o)
-                0x000000000800cba4                malloc
- .text.free     0x000000000800cbb4       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-malloc.o)
-                0x000000000800cbb4                free
- .text.memcpy   0x000000000800cbc4       0x1c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-memcpy-stub.o)
-                0x000000000800cbc4                memcpy
- .text.memmove  0x000000000800cbe0       0x34 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-memmove.o)
-                0x000000000800cbe0                memmove
- .text.memset   0x000000000800cc14       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-memset.o)
-                0x000000000800cc14                memset
- .text._free_r  0x000000000800cc24       0xa0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-freer.o)
-                0x000000000800cc24                _free_r
+                0x000000000800cb2c       0x48 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-init.o)
+                0x000000000800cb2c                __libc_init_array
+ .text.malloc   0x000000000800cb74       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-malloc.o)
+                0x000000000800cb74                malloc
+ .text.free     0x000000000800cb84       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-malloc.o)
+                0x000000000800cb84                free
+ .text.memcpy   0x000000000800cb94       0x1c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+                0x000000000800cb94                memcpy
+ .text.memmove  0x000000000800cbb0       0x34 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-memmove.o)
+                0x000000000800cbb0                memmove
+ .text.memset   0x000000000800cbe4       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-memset.o)
+                0x000000000800cbe4                memset
+ .text._free_r  0x000000000800cbf4       0xa0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-freer.o)
+                0x000000000800cbf4                _free_r
  .text._malloc_r
-                0x000000000800ccc4       0xb4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-mallocr.o)
-                0x000000000800ccc4                _malloc_r
- .text.rand     0x000000000800cd78       0x68 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-rand.o)
-                0x000000000800cd78                rand
- .text._sbrk_r  0x000000000800cde0       0x20 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-sbrkr.o)
-                0x000000000800cde0                _sbrk_r
+                0x000000000800cc94       0xb4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+                0x000000000800cc94                _malloc_r
+ .text.rand     0x000000000800cd48       0x68 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-rand.o)
+                0x000000000800cd48                rand
+ .text._sbrk_r  0x000000000800cdb0       0x20 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-sbrkr.o)
+                0x000000000800cdb0                _sbrk_r
  .text._raise_r
-                0x000000000800ce00       0x50 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-signal.o)
-                0x000000000800ce00                _raise_r
- .text.raise    0x000000000800ce50       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-signal.o)
-                0x000000000800ce50                raise
- .text._kill_r  0x000000000800ce60       0x24 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-signalr.o)
-                0x000000000800ce60                _kill_r
+                0x000000000800cdd0       0x50 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-signal.o)
+                0x000000000800cdd0                _raise_r
+ .text.raise    0x000000000800ce20       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-signal.o)
+                0x000000000800ce20                raise
+ .text._kill_r  0x000000000800ce30       0x24 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-signalr.o)
+                0x000000000800ce30                _kill_r
  .text._getpid_r
-                0x000000000800ce84        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-signalr.o)
-                0x000000000800ce84                _getpid_r
+                0x000000000800ce54        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-signalr.o)
+                0x000000000800ce54                _getpid_r
  .text._vsnprintf_r
-                0x000000000800ce88       0x58 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-vsnprintf.o)
-                0x000000000800ce88                _vsnprintf_r
-                0x000000000800ce88                _vsniprintf_r
+                0x000000000800ce58       0x58 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-vsnprintf.o)
+                0x000000000800ce58                _vsnprintf_r
+                0x000000000800ce58                _vsniprintf_r
  .text.vsnprintf
-                0x000000000800cee0       0x1c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-vsnprintf.o)
-                0x000000000800cee0                vsnprintf
-                0x000000000800cee0                vsniprintf
+                0x000000000800ceb0       0x1c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-vsnprintf.o)
+                0x000000000800ceb0                vsnprintf
+                0x000000000800ceb0                vsniprintf
  .text.__malloc_lock
-                0x000000000800cefc        0xc /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-mlock.o)
-                0x000000000800cefc                __malloc_lock
+                0x000000000800cecc        0xc /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-mlock.o)
+                0x000000000800cecc                __malloc_lock
  .text.__malloc_unlock
-                0x000000000800cf08        0xc /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-mlock.o)
-                0x000000000800cf08                __malloc_unlock
+                0x000000000800ced8        0xc /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-mlock.o)
+                0x000000000800ced8                __malloc_unlock
  .text.__ssputs_r
-                0x000000000800cf14       0xb6 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
-                0x000000000800cf14                __ssputs_r
- *fill*         0x000000000800cfca        0x2 
+                0x000000000800cee4       0xb6 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000800cee4                __ssputs_r
+ *fill*         0x000000000800cf9a        0x2 
  .text._svfprintf_r
-                0x000000000800cfcc      0x200 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
-                0x000000000800cfcc                _svfprintf_r
-                0x000000000800cfcc                _svfiprintf_r
+                0x000000000800cf9c      0x200 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000800cf9c                _svfprintf_r
+                0x000000000800cf9c                _svfiprintf_r
  .text._printf_common
-                0x000000000800d1cc       0xda /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x000000000800d1cc                _printf_common
- *fill*         0x000000000800d2a6        0x2 
+                0x000000000800d19c       0xda /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000800d19c                _printf_common
+ *fill*         0x000000000800d276        0x2 
  .text._printf_i
-                0x000000000800d2a8      0x24c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x000000000800d2a8                _printf_i
+                0x000000000800d278      0x24c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000800d278                _printf_i
  .text.__retarget_lock_acquire_recursive
-                0x000000000800d4f4        0x2 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-lock.o)
-                0x000000000800d4f4                __retarget_lock_acquire_recursive
+                0x000000000800d4c4        0x2 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-lock.o)
+                0x000000000800d4c4                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x000000000800d4f6        0x2 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-lock.o)
-                0x000000000800d4f6                __retarget_lock_release_recursive
+                0x000000000800d4c6        0x2 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-lock.o)
+                0x000000000800d4c6                __retarget_lock_release_recursive
  .text._realloc_r
-                0x000000000800d4f8       0x4c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-reallocr.o)
-                0x000000000800d4f8                _realloc_r
+                0x000000000800d4c8       0x4c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-reallocr.o)
+                0x000000000800d4c8                _realloc_r
  .text._malloc_usable_size_r
-                0x000000000800d544       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-msizer.o)
-                0x000000000800d544                _malloc_usable_size_r
- .text._getpid  0x000000000800d554       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libnosys.a(getpid.o)
-                0x000000000800d554                _getpid
- .text._kill    0x000000000800d564       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libnosys.a(kill.o)
-                0x000000000800d564                _kill
- .text._sbrk    0x000000000800d574       0x1c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libnosys.a(sbrk.o)
-                0x000000000800d574                _sbrk
- .text._exit    0x000000000800d590        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libnosys.a(_exit.o)
-                0x000000000800d590                _exit
+                0x000000000800d514       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-msizer.o)
+                0x000000000800d514                _malloc_usable_size_r
+ .text._getpid  0x000000000800d524       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libnosys.a(getpid.o)
+                0x000000000800d524                _getpid
+ .text._kill    0x000000000800d534       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libnosys.a(kill.o)
+                0x000000000800d534                _kill
+ .text._sbrk    0x000000000800d544       0x1c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libnosys.a(sbrk.o)
+                0x000000000800d544                _sbrk
+ .text._exit    0x000000000800d560        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libnosys.a(_exit.o)
+                0x000000000800d560                _exit
  *(.rodata)
- .rodata        0x000000000800d594       0x10 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(util_hal_map.o)
- .rodata        0x000000000800d5a4        0x8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart_ex.o)
+ .rodata        0x000000000800d564       0x10 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(util_hal_map.o)
+ .rodata        0x000000000800d574        0x8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart_ex.o)
  *(.rodata*)
  .rodata.D1CorePrescTable
-                0x000000000800d5ac       0x10 build/system_stm32h7xx.o
-                0x000000000800d5ac                D1CorePrescTable
+                0x000000000800d57c       0x10 build/system_stm32h7xx.o
+                0x000000000800d57c                D1CorePrescTable
  .rodata._Z11ProcessOledv.str1.4
-                0x000000000800d5bc       0x33 build/lfsr.o
- *fill*         0x000000000800d5ef        0x1 
+                0x000000000800d58c       0x33 build/lfsr.o
+ *fill*         0x000000000800d5bf        0x1 
  .rodata._ZL16dsy_adc_rank_map
-                0x000000000800d5f0       0x40 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_adc.o)
+                0x000000000800d5c0       0x40 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_adc.o)
  .rodata.gpio_hal_pin_map
-                0x000000000800d630       0x20 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(util_hal_map.o)
+                0x000000000800d600       0x20 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(util_hal_map.o)
  .rodata.gpio_hal_port_map
-                0x000000000800d650       0x30 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(util_hal_map.o)
+                0x000000000800d620       0x30 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(util_hal_map.o)
  .rodata.Font6x8
-                0x000000000800d680      0x5f0 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(util_oled_fonts.o)
+                0x000000000800d650      0x5f0 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(util_oled_fonts.o)
  .rodata.flagBitshiftOffset.17850
-                0x000000000800dc70        0x8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dma.o)
+                0x000000000800dc40        0x8 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dma.o)
  .rodata._ZL8seedgpio
-                0x000000000800dc78       0x3e /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_seed.o)
- *fill*         0x000000000800dcb6        0x2 
+                0x000000000800dc48       0x3e /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_seed.o)
+ *fill*         0x000000000800dc86        0x2 
  .rodata.HAL_QSPI_MspInit.str1.4
-                0x000000000800dcb8        0x7 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_qspi.o)
- *fill*         0x000000000800dcbf        0x1 
+                0x000000000800dc88        0x7 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_qspi.o)
+ *fill*         0x000000000800dc8f        0x1 
  .rodata.CSWTCH.418
-                0x000000000800dcc0       0x29 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
- *fill*         0x000000000800dce9        0x3 
+                0x000000000800dc90       0x29 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
+ *fill*         0x000000000800dcb9        0x3 
  .rodata.CSWTCH.419
-                0x000000000800dcec        0x6 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
- *fill*         0x000000000800dcf2        0x2 
+                0x000000000800dcbc        0x6 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
+ *fill*         0x000000000800dcc2        0x2 
  .rodata.CSWTCH.426
-                0x000000000800dcf4        0x6 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
- *fill*         0x000000000800dcfa        0x2 
+                0x000000000800dcc4        0x6 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
+ *fill*         0x000000000800dcca        0x2 
  .rodata.HAL_UARTEx_EnableFifoMode.str1.4
-                0x000000000800dcfc        0x9 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart_ex.o)
+                0x000000000800dccc        0x9 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart_ex.o)
  .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj.str1.1
-                0x000000000800dd05       0x18 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
+                0x000000000800dcd5       0x18 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
  .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj.str1.1
-                0x000000000800dd1d       0x19 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
- *fill*         0x000000000800dd36        0x2 
+                0x000000000800dced       0x19 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
+ *fill*         0x000000000800dd06        0x2 
  .rodata.__exp2f_data
-                0x000000000800dd38      0x148 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-sf_exp2_data.o)
-                0x000000000800dd38                __exp2f_data
+                0x000000000800dd08      0x148 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-sf_exp2_data.o)
+                0x000000000800dd08                __exp2f_data
  .rodata.__logf_data
-                0x000000000800de80      0x120 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-sf_log_data.o)
-                0x000000000800de80                __logf_data
+                0x000000000800de50      0x120 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-sf_log_data.o)
+                0x000000000800de50                __logf_data
  .rodata._svfprintf_r.str1.1
-                0x000000000800dfa0       0x11 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000800df70       0x11 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata._printf_i.str1.1
-                0x000000000800dfb1       0x22 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000800df81       0x22 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
  *(.glue_7)
- .glue_7        0x000000000800dfd3        0x0 linker stubs
+ .glue_7        0x000000000800dfa3        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x000000000800dfd3        0x0 linker stubs
+ .glue_7t       0x000000000800dfa3        0x0 linker stubs
  *(.init)
- *fill*         0x000000000800dfd3        0x1 
- .init          0x000000000800dfd4        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crti.o
-                0x000000000800dfd4                _init
- .init          0x000000000800dfd8        0x8 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crtn.o
+ *fill*         0x000000000800dfa3        0x1 
+ .init          0x000000000800dfa4        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crti.o
+                0x000000000800dfa4                _init
+ .init          0x000000000800dfa8        0x8 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crtn.o
  *(.fini)
- .fini          0x000000000800dfe0        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crti.o
-                0x000000000800dfe0                _fini
- .fini          0x000000000800dfe4        0x8 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crtn.o
-                0x000000000800dfec                . = ALIGN (0x4)
-                0x000000000800dfec                _etext = .
+ .fini          0x000000000800dfb0        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crti.o
+                0x000000000800dfb0                _fini
+ .fini          0x000000000800dfb4        0x8 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crtn.o
+                0x000000000800dfbc                . = ALIGN (0x4)
+                0x000000000800dfbc                _etext = .
 
-.vfp11_veneer   0x000000000800dfec        0x0
- .vfp11_veneer  0x000000000800dfec        0x0 linker stubs
+.vfp11_veneer   0x000000000800dfbc        0x0
+ .vfp11_veneer  0x000000000800dfbc        0x0 linker stubs
 
-.v4_bx          0x000000000800dfec        0x0
- .v4_bx         0x000000000800dfec        0x0 linker stubs
+.v4_bx          0x000000000800dfbc        0x0
+ .v4_bx         0x000000000800dfbc        0x0 linker stubs
 
-.iplt           0x000000000800dfec        0x0
- .iplt          0x000000000800dfec        0x0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+.iplt           0x000000000800dfbc        0x0
+ .iplt          0x000000000800dfbc        0x0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crtbegin.o
 
-.ARM.extab      0x000000000800dfec        0x0
-                0x000000000800dfec                . = ALIGN (0x4)
+.ARM.extab      0x000000000800dfbc        0x0
+                0x000000000800dfbc                . = ALIGN (0x4)
  *(.ARM.extab)
  *(.gnu.linkonce.armextab.*)
-                0x000000000800dfec                . = ALIGN (0x4)
+                0x000000000800dfbc                . = ALIGN (0x4)
 
-.exidx          0x000000000800dfec        0x8
-                0x000000000800dfec                . = ALIGN (0x4)
+.exidx          0x000000000800dfbc        0x8
+                0x000000000800dfbc                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__exidx_start = .)
  *(.ARM.exidx*)
- .ARM.exidx     0x000000000800dfec        0x8 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/libgcc.a(_udivmoddi4.o)
-                0x000000000800dff4                . = ALIGN (0x4)
+ .ARM.exidx     0x000000000800dfbc        0x8 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/libgcc.a(_udivmoddi4.o)
+                0x000000000800dfc4                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__exidx_end = .)
 
-.rel.dyn        0x000000000800dff4        0x0
- .rel.iplt      0x000000000800dff4        0x0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+.rel.dyn        0x000000000800dfc4        0x0
+ .rel.iplt      0x000000000800dfc4        0x0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crtbegin.o
 
 .ARM.attributes
-                0x000000000800dff4       0x2e
+                0x000000000800dfc4       0x2e
  *(.ARM.attributes)
  .ARM.attributes
-                0x000000000800dff4       0x1e /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crti.o
+                0x000000000800dfc4       0x1e /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crti.o
  .ARM.attributes
-                0x000000000800e012       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+                0x000000000800dfe2       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crtbegin.o
  .ARM.attributes
-                0x000000000800e044       0x32 build/system_stm32h7xx.o
+                0x000000000800e014       0x32 build/system_stm32h7xx.o
  .ARM.attributes
-                0x000000000800e076       0x32 build/lfsr.o
+                0x000000000800e046       0x32 build/lfsr.o
  .ARM.attributes
-                0x000000000800e0a8       0x21 build/startup_stm32h750xx.o
+                0x000000000800e078       0x21 build/startup_stm32h750xx.o
  .ARM.attributes
-                0x000000000800e0c9       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_patch.o)
+                0x000000000800e099       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_patch.o)
  .ARM.attributes
-                0x000000000800e0fb       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_adc.o)
+                0x000000000800e0cb       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_adc.o)
  .ARM.attributes
-                0x000000000800e12d       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
+                0x000000000800e0fd       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_audio.o)
  .ARM.attributes
-                0x000000000800e15f       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(sys_system.o)
+                0x000000000800e12f       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(sys_system.o)
  .ARM.attributes
-                0x000000000800e191       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_i2c.o)
+                0x000000000800e161       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_i2c.o)
  .ARM.attributes
-                0x000000000800e1c3       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_sai.o)
+                0x000000000800e193       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_sai.o)
  .ARM.attributes
-                0x000000000800e1f5       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_gpio.o)
+                0x000000000800e1c5       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_gpio.o)
  .ARM.attributes
-                0x000000000800e227       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_dac.o)
+                0x000000000800e1f7       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_dac.o)
  .ARM.attributes
-                0x000000000800e259       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_ctrl.o)
+                0x000000000800e229       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_ctrl.o)
  .ARM.attributes
-                0x000000000800e28b       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_encoder.o)
+                0x000000000800e25b       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_encoder.o)
  .ARM.attributes
-                0x000000000800e2bd       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_gatein.o)
+                0x000000000800e28d       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_gatein.o)
  .ARM.attributes
-                0x000000000800e2ef       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_midi.o)
+                0x000000000800e2bf       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_midi.o)
  .ARM.attributes
-                0x000000000800e321       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
+                0x000000000800e2f1       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
  .ARM.attributes
-                0x000000000800e353       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_parameter.o)
+                0x000000000800e323       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_parameter.o)
  .ARM.attributes
-                0x000000000800e385       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_switch.o)
+                0x000000000800e355       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_switch.o)
  .ARM.attributes
-                0x000000000800e3b7       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(util_hal_map.o)
+                0x000000000800e387       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(util_hal_map.o)
  .ARM.attributes
-                0x000000000800e3e9       0x37 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(util_oled_fonts.o)
+                0x000000000800e3b9       0x37 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(util_oled_fonts.o)
  .ARM.attributes
-                0x000000000800e420       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
+                0x000000000800e3f0       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc.o)
  .ARM.attributes
-                0x000000000800e452       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc_ex.o)
+                0x000000000800e422       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_adc_ex.o)
  .ARM.attributes
-                0x000000000800e484       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
+                0x000000000800e454       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_cortex.o)
  .ARM.attributes
-                0x000000000800e4b6       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dac.o)
+                0x000000000800e486       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dac.o)
  .ARM.attributes
-                0x000000000800e4e8       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_i2c.o)
+                0x000000000800e4b8       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_i2c.o)
  .ARM.attributes
-                0x000000000800e51a       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_i2c_ex.o)
+                0x000000000800e4ea       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_i2c_ex.o)
  .ARM.attributes
-                0x000000000800e54c       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
+                0x000000000800e51c       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sai.o)
  .ARM.attributes
-                0x000000000800e57e       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc.o)
+                0x000000000800e54e       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc.o)
  .ARM.attributes
-                0x000000000800e5b0       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
+                0x000000000800e580       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_rcc_ex.o)
  .ARM.attributes
-                0x000000000800e5e2       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_gpio.o)
+                0x000000000800e5b2       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_gpio.o)
  .ARM.attributes
-                0x000000000800e614       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dma.o)
+                0x000000000800e5e4       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_dma.o)
  .ARM.attributes
-                0x000000000800e646       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_pwr_ex.o)
+                0x000000000800e616       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_pwr_ex.o)
  .ARM.attributes
-                0x000000000800e678       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal.o)
+                0x000000000800e648       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal.o)
  .ARM.attributes
-                0x000000000800e6aa       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_seed.o)
+                0x000000000800e67a       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(daisy_seed.o)
  .ARM.attributes
-                0x000000000800e6dc       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(dev_codec_pcm3060.o)
+                0x000000000800e6ac       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(dev_codec_pcm3060.o)
  .ARM.attributes
-                0x000000000800e70e       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(dev_codec_wm8731.o)
+                0x000000000800e6de       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(dev_codec_wm8731.o)
  .ARM.attributes
-                0x000000000800e740       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(dev_codec_ak4556.o)
+                0x000000000800e710       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(dev_codec_ak4556.o)
  .ARM.attributes
-                0x000000000800e772       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(sys_dma.o)
+                0x000000000800e742       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(sys_dma.o)
  .ARM.attributes
-                0x000000000800e7a4       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_qspi.o)
+                0x000000000800e774       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_qspi.o)
  .ARM.attributes
-                0x000000000800e7d6       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(dev_sdram.o)
+                0x000000000800e7a6       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(dev_sdram.o)
  .ARM.attributes
-                0x000000000800e808       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_spi.o)
+                0x000000000800e7d8       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_spi.o)
  .ARM.attributes
-                0x000000000800e83a       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_tim.o)
+                0x000000000800e80a       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_tim.o)
  .ARM.attributes
-                0x000000000800e86c       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_uart.o)
+                0x000000000800e83c       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(per_uart.o)
  .ARM.attributes
-                0x000000000800e89e       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sdram.o)
+                0x000000000800e86e       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_sdram.o)
  .ARM.attributes
-                0x000000000800e8d0       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
+                0x000000000800e8a0       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_qspi.o)
  .ARM.attributes
-                0x000000000800e902       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_spi.o)
+                0x000000000800e8d2       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_spi.o)
  .ARM.attributes
-                0x000000000800e934       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_tim.o)
+                0x000000000800e904       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_tim.o)
  .ARM.attributes
-                0x000000000800e966       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_tim_ex.o)
+                0x000000000800e936       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_tim_ex.o)
  .ARM.attributes
-                0x000000000800e998       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
+                0x000000000800e968       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart.o)
  .ARM.attributes
-                0x000000000800e9ca       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart_ex.o)
+                0x000000000800e99a       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_uart_ex.o)
  .ARM.attributes
-                0x000000000800e9fc       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_mdma.o)
+                0x000000000800e9cc       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_hal_mdma.o)
  .ARM.attributes
-                0x000000000800ea2e       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_ll_fmc.o)
+                0x000000000800e9fe       0x32 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(stm32h7xx_ll_fmc.o)
  .ARM.attributes
-                0x000000000800ea60       0x32 /Users/jhe1/sdks/DaisyExamples/DaisySP/build/libdaisysp.a(metro.o)
+                0x000000000800ea30       0x32 /Users/jhe1/sdks/DaisyExamples/DaisySP/build/libdaisysp.a(metro.o)
  .ARM.attributes
-                0x000000000800ea92       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(atexit_arm.o)
+                0x000000000800ea62       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(atexit_arm.o)
  .ARM.attributes
-                0x000000000800eac4       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(del_op.o)
+                0x000000000800ea94       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(del_op.o)
  .ARM.attributes
-                0x000000000800eaf6       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
+                0x000000000800eac6       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
  .ARM.attributes
-                0x000000000800eb28       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(new_op.o)
+                0x000000000800eaf8       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(new_op.o)
  .ARM.attributes
-                0x000000000800eb5a       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(functexcept.o)
+                0x000000000800eb2a       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(functexcept.o)
  .ARM.attributes
-                0x000000000800eb8c       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(new_handler.o)
+                0x000000000800eb5c       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(new_handler.o)
  .ARM.attributes
-                0x000000000800ebbe       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-sf_exp.o)
+                0x000000000800eb8e       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-sf_exp.o)
  .ARM.attributes
-                0x000000000800ebf0       0x30 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-sf_exp2_data.o)
+                0x000000000800ebc0       0x30 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-sf_exp2_data.o)
  .ARM.attributes
-                0x000000000800ec20       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-sf_log.o)
+                0x000000000800ebf0       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-sf_log.o)
  .ARM.attributes
-                0x000000000800ec52       0x30 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-sf_log_data.o)
+                0x000000000800ec22       0x30 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-sf_log_data.o)
  .ARM.attributes
-                0x000000000800ec82       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-math_errf.o)
+                0x000000000800ec52       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(lib_a-math_errf.o)
  .ARM.attributes
-                0x000000000800ecb4       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-abort.o)
+                0x000000000800ec84       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-abort.o)
  .ARM.attributes
-                0x000000000800ece6       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-cxa_atexit.o)
+                0x000000000800ecb6       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-cxa_atexit.o)
  .ARM.attributes
-                0x000000000800ed18       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-errno.o)
+                0x000000000800ece8       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-errno.o)
  .ARM.attributes
-                0x000000000800ed4a       0x30 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-impure.o)
+                0x000000000800ed1a       0x30 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x000000000800ed7a       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-init.o)
+                0x000000000800ed4a       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x000000000800edac       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-malloc.o)
+                0x000000000800ed7c       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-malloc.o)
  .ARM.attributes
-                0x000000000800edde       0x1c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-memchr.o)
+                0x000000000800edae       0x1c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-memchr.o)
  .ARM.attributes
-                0x000000000800edfa       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+                0x000000000800edca       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x000000000800ee2c       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-memmove.o)
+                0x000000000800edfc       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-memmove.o)
  .ARM.attributes
-                0x000000000800ee5e       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-memset.o)
+                0x000000000800ee2e       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-memset.o)
  .ARM.attributes
-                0x000000000800ee90       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-freer.o)
+                0x000000000800ee60       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x000000000800eec2       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+                0x000000000800ee92       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x000000000800eef4       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-rand.o)
+                0x000000000800eec4       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-rand.o)
  .ARM.attributes
-                0x000000000800ef26       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-sbrkr.o)
+                0x000000000800eef6       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x000000000800ef58       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-signal.o)
+                0x000000000800ef28       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-signal.o)
  .ARM.attributes
-                0x000000000800ef8a       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-signalr.o)
+                0x000000000800ef5a       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-signalr.o)
  .ARM.attributes
-                0x000000000800efbc       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-vsnprintf.o)
+                0x000000000800ef8c       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-vsnprintf.o)
  .ARM.attributes
-                0x000000000800efee       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-mlock.o)
+                0x000000000800efbe       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-mlock.o)
  .ARM.attributes
-                0x000000000800f020       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000800eff0       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
  .ARM.attributes
-                0x000000000800f052       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000800f022       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
  .ARM.attributes
-                0x000000000800f084       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-reent.o)
+                0x000000000800f054       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-reent.o)
  .ARM.attributes
-                0x000000000800f0b6       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-lock.o)
+                0x000000000800f086       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-lock.o)
  .ARM.attributes
-                0x000000000800f0e8       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-reallocr.o)
+                0x000000000800f0b8       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-reallocr.o)
  .ARM.attributes
-                0x000000000800f11a       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-msizer.o)
+                0x000000000800f0ea       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(lib_a-nano-msizer.o)
  .ARM.attributes
-                0x000000000800f14c       0x1e /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x000000000800f11c       0x1e /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x000000000800f16a       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/libgcc.a(_udivmoddi4.o)
+                0x000000000800f13a       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x000000000800f19c       0x1e /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/libgcc.a(_dvmd_tls.o)
+                0x000000000800f16c       0x1e /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x000000000800f1ba       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libnosys.a(getpid.o)
+                0x000000000800f18a       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libnosys.a(getpid.o)
  .ARM.attributes
-                0x000000000800f1ec       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libnosys.a(kill.o)
+                0x000000000800f1bc       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libnosys.a(kill.o)
  .ARM.attributes
-                0x000000000800f21e       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libnosys.a(sbrk.o)
+                0x000000000800f1ee       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libnosys.a(sbrk.o)
  .ARM.attributes
-                0x000000000800f250       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libnosys.a(_exit.o)
+                0x000000000800f220       0x32 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libnosys.a(_exit.o)
  .ARM.attributes
-                0x000000000800f282       0x1e /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crtn.o
+                0x000000000800f252       0x1e /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crtn.o
 
-.preinit_array  0x000000000800dff4        0x0
-                0x000000000800dff4                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x000000000800dfc4        0x0
+                0x000000000800dfc4                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x000000000800dff4                PROVIDE (__preinit_array_end = .)
+                0x000000000800dfc4                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x000000000800dff4        0xc
-                0x000000000800dff4                PROVIDE (__init_array_start = .)
+.init_array     0x000000000800dfc4        0xc
+                0x000000000800dfc4                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x000000000800dff4        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crtbegin.o
- .init_array    0x000000000800dff8        0x4 build/lfsr.o
- .init_array    0x000000000800dffc        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
-                0x000000000800e000                PROVIDE (__init_array_end = .)
+ .init_array    0x000000000800dfc4        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .init_array    0x000000000800dfc8        0x4 build/lfsr.o
+ .init_array    0x000000000800dfcc        0x4 /Users/jhe1/sdks/DaisyExamples/libdaisy/build/libdaisy.a(hid_oled_display.o)
+                0x000000000800dfd0                PROVIDE (__init_array_end = .)
 
-.fini_array     0x000000000800e000        0x4
+.fini_array     0x000000000800dfd0        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(.fini_array*)
- .fini_array    0x000000000800e000        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .fini_array    0x000000000800dfd0        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crtbegin.o
  *(SORT_BY_NAME(.fini_array.*))
                 [!provide]                        PROVIDE (__fini_array_end = .)
 
-.data           0x0000000024000000       0x8c load address 0x000000000800e004
+.data           0x0000000024000000       0x8c load address 0x000000000800dfd4
                 0x0000000024000000                . = ALIGN (0x4)
                 0x0000000024000000                _sdata = .
                 [!provide]                        PROVIDE (__data_start__ = _sdata)
@@ -4140,12 +4139,12 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-
                 0x000000002400008c                . = ALIGN (0x4)
                 0x000000002400008c                _edata = .
                 [!provide]                        PROVIDE (__data_end__ = _edata)
-                0x000000000800e004                _sidata = LOADADDR (.data)
+                0x000000000800dfd4                _sidata = LOADADDR (.data)
 
-.igot.plt       0x000000002400008c        0x0 load address 0x000000000800e090
+.igot.plt       0x000000002400008c        0x0 load address 0x000000000800e060
  .igot.plt      0x000000002400008c        0x0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+dp/hard/crtbegin.o
 
-.bss            0x0000000024000090     0x24c4 load address 0x000000000800e090
+.bss            0x0000000024000090     0x24c4 load address 0x000000000800e060
                 0x0000000024000090                . = ALIGN (0x4)
                 0x0000000024000090                _sbss = .
                 0x0000000024000090                PROVIDE (__bss_start__ = _sbss)
