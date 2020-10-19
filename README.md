@@ -2,7 +2,7 @@
 playable 16-bit linear-feedback shift register
 
 ## Description
-![display module](screen.png)
+![module overview](overview.png)
 
 ## Controls
 | Control | Description | Comment |
