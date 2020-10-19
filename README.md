@@ -1,6 +1,10 @@
-# Description
+# UGN-01P
 playable 16-bit linear-feedback shift register
-# Controls
+
+## Description
+![display module](screen.png)
+
+## Controls
 | Control | Description | Comment |
 | --- | --- | --- |
 | Ctrl 1 - 4 | CV Inputs | Tap position. Ctrl as scaler when there is CV input. |
@@ -11,5 +15,5 @@ playable 16-bit linear-feedback shift register
 | CV Out 1 - 2 | LFSR Register Outs | CV Output of LFSR register value and its inverse respectively |
 | Audio Out 1 - 4 | Tap bit gate AND Output | Bit state at n-th tap && IN n-th individually. |
 
-# Compiling
+## Compiling
 You should either 1) put this folder one level from your libdaisy and DaiySP directory. e.g. ../DaisyExamples/patch/ or, 2) edit Makefile to point to the library locations (full path) of libdaisy or DaisySP.
